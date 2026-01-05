@@ -89,6 +89,14 @@
           "description": "Egg noodles tossed with chicken, vegetables, and a savory sauce. A quick and tasty meal."
         },
         {
+          "id": "Normal-noodles",
+          "name": "Normal Noodles",
+          "price": 800,
+          "image": "/images/menu/normal-noodles.jpg",
+          "shortDescription": "Stir-fried noodles with chicken.",
+          "description": "Normal noodles tossed with chicken, vegetables, and a savory sauce. A quick and tasty meal."
+        },
+        {
           "id": "seafood-noodles",
           "name": "Seafood Noodles",
           "price": 1400,

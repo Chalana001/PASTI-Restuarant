@@ -7,34 +7,13 @@ import FoodDetailsPage from "./pages/FoodDetailsPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import "./App.css";
+import Navbar from "./components/Navbar";
 
-const Navbar = () => (
-  <header className="navbar">
-      <div className="nav-container">
-
-        {/* LOGO → HOME */}
-        <Link to="/" className="nav-logo">
-          <img src="/images/logo.jpg" alt="PASTI logo" />
-          <span>PASTI</span>
-        </Link>
-
-        {/* NAV LINKS */}
-        <nav className="nav-links">
-          <Link to="/">Home</Link>
-          <Link to="/menu">Menu</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-        </nav>
-
-      </div>
-    </header>
-);
 
 function App() {
   const navigate = useNavigate();
   return (
     <div className="app-root">
-      <Navbar />
       <Routes>
         <Route
           path="/"
@@ -52,6 +31,7 @@ function App() {
 
 const AppWithRouter = () => (
   <Router>
+    <Navbar /> {/* 🔥 GLOBAL NAVBAR */}
     <App />
   </Router>
 );

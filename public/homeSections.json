@@ -1,0 +1,32 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "Fresh Local Food, Made Daily",
+      "text": "At PASTI, we cook simple and fresh food using local ingredients. No shortcuts, no frozen items — just honest meals prepared every day.",
+      "image": "/images/sections/food-1.jpg",
+      "reverse": false
+    },
+    {
+      "id": 2,
+      "title": "Loved by Locals & Travelers",
+      "text": "From Mahiyanganaya locals to foreign visitors, PASTI is known for tasty food, friendly service, and a calm place to enjoy your meal.",
+      "image": "/images/sections/food-2.jpg",
+      "reverse": true
+    },
+    {
+      "id": 3,
+      "title": "Simple Menu, Big Flavours",
+      "text": "Our menu focuses on popular Sri Lankan and café-style food. Every dish is prepared fresh and served hot.",
+      "image": "/images/sections/food-3.jpg",
+      "reverse": false
+    },
+    {
+      "id": 4,
+      "title": "A Calm Place to Eat & Relax",
+      "text": "Whether you live nearby or are visiting Mahiyanganaya, PASTI is a comfortable place to eat, relax, and enjoy good food.",
+      "image": "/images/sections/food-4.jpg",
+      "reverse": true
+    }
+  ]
+}
