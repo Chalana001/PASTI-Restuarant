@@ -4,9 +4,9 @@ import "../App.css";
 const heroImages = [
   "/images/hero/hero1.jpg",
   "/images/hero/hero2.jpg",
-  "/images/hero/hero3.webp",
-  "/images/hero/hero4.webp",
-  "/images/hero/hero5.webp"
+  "/images/hero/hero3.jpg",
+  "/images/hero/hero4.jpg",
+  "/images/hero/hero5.jpg"
 ];
 
 const tagline = "This is your own place";

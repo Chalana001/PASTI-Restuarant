@@ -9,17 +9,25 @@ import ContactPage from "./pages/ContactPage";
 import "./App.css";
 
 const Navbar = () => (
-  <nav className="navbar">
-    <Link to="/" className="nav-logo">
-      <img src="/images/logo.png" alt="PASTI Logo" className="nav-logo-img" />
-      <span>PASTI</span>
-    </Link>
-    <div className="nav-links">
-      <Link to="/menu">Menu</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
-    </div>
-  </nav>
+  <header className="navbar">
+      <div className="nav-container">
+
+        {/* LOGO → HOME */}
+        <Link to="/" className="nav-logo">
+          <img src="/images/logo.jpg" alt="PASTI logo" />
+          <span>PASTI</span>
+        </Link>
+
+        {/* NAV LINKS */}
+        <nav className="nav-links">
+          <Link to="/">Home</Link>
+          <Link to="/menu">Menu</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+        </nav>
+
+      </div>
+    </header>
 );
 
 function App() {
