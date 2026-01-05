@@ -1,0 +1,194 @@
+{
+  "categories": [
+    {
+      "id": "rice-dishes",
+      "name": "Rice Dishes",
+      "foods": [
+        {
+          "id": "chicken-biryani",
+          "name": "Chicken Biryani",
+          "price": 1200,
+          "image": "/images/menu/chicken-biryani.jpg",
+          "shortDescription": "Aromatic basmati rice with spiced chicken.",
+          "description": "Tender chicken cooked with fragrant basmati rice, Sri Lankan spices, and caramelized onions. Served with raita and boiled egg."
+        },
+        {
+          "id": "egg-fried-rice",
+          "name": "Egg Fried Rice",
+          "price": 900,
+          "image": "/images/menu/egg-fried-rice.jpg",
+          "shortDescription": "Classic fried rice with eggs and veggies.",
+          "description": "Fluffy rice stir-fried with eggs, carrots, spring onions, and a touch of soy sauce. A simple yet satisfying meal."
+        },
+        {
+          "id": "seafood-rice",
+          "name": "Seafood Rice",
+          "price": 1500,
+          "image": "/images/menu/seafood-rice.jpg",
+          "shortDescription": "Mixed seafood with spicy rice.",
+          "description": "A medley of prawns, cuttlefish, and fish tossed with spicy rice and fresh herbs. A coastal favorite."
+        },
+        {
+          "id": "vegetable-rice",
+          "name": "Vegetable Rice",
+          "price": 800,
+          "image": "/images/menu/vegetable-rice.jpg",
+          "shortDescription": "Colorful veggies with seasoned rice.",
+          "description": "A healthy mix of seasonal vegetables cooked with lightly spiced rice. Perfect for vegetarians."
+        }
+      ]
+    },
+    {
+      "id": "kottu",
+      "name": "Kottu",
+      "foods": [
+        {
+          "id": "chicken-kottu",
+          "name": "Chicken Kottu",
+          "price": 1100,
+          "image": "/images/menu/chicken-kottu.jpg",
+          "shortDescription": "Chopped roti with chicken and veggies.",
+          "description": "Sri Lanka's favorite street food: godamba roti stir-fried with chicken, vegetables, and aromatic spices."
+        },
+        {
+          "id": "cheese-kottu",
+          "name": "Cheese Kottu",
+          "price": 1300,
+          "image": "/images/menu/cheese-kottu.jpg",
+          "shortDescription": "Creamy cheese mixed with kottu.",
+          "description": "A rich and indulgent kottu with gooey cheese, roti, and a blend of fresh vegetables."
+        },
+        {
+          "id": "egg-kottu",
+          "name": "Egg Kottu",
+          "price": 950,
+          "image": "/images/menu/egg-kottu.jpg",
+          "shortDescription": "Eggs and roti stir-fried together.",
+          "description": "Soft godamba roti, scrambled eggs, and vegetables tossed in a spicy sauce."
+        },
+        {
+          "id": "beef-kottu",
+          "name": "Beef Kottu",
+          "price": 1400,
+          "image": "/images/menu/beef-kottu.jpg",
+          "shortDescription": "Tender beef with spicy kottu.",
+          "description": "Juicy beef pieces cooked with roti, vegetables, and signature kottu spices."
+        }
+      ]
+    },
+    {
+      "id": "noodles",
+      "name": "Noodles",
+      "foods": [
+        {
+          "id": "chicken-noodles",
+          "name": "Chicken Noodles",
+          "price": 1000,
+          "image": "/images/menu/chicken-noodles.jpg",
+          "shortDescription": "Stir-fried noodles with chicken.",
+          "description": "Egg noodles tossed with chicken, vegetables, and a savory sauce. A quick and tasty meal."
+        },
+        {
+          "id": "seafood-noodles",
+          "name": "Seafood Noodles",
+          "price": 1400,
+          "image": "/images/menu/seafood-noodles.jpg",
+          "shortDescription": "Mixed seafood and noodles.",
+          "description": "A delicious combination of prawns, cuttlefish, and fish stir-fried with noodles and spices."
+        },
+        {
+          "id": "vegetable-noodles",
+          "name": "Vegetable Noodles",
+          "price": 850,
+          "image": "/images/menu/vegetable-noodles.jpg",
+          "shortDescription": "Noodles with fresh vegetables.",
+          "description": "Egg noodles cooked with a variety of fresh vegetables and a light soy sauce."
+        },
+        {
+          "id": "beef-noodles",
+          "name": "Beef Noodles",
+          "price": 1300,
+          "image": "/images/menu/beef-noodles.jpg",
+          "shortDescription": "Beef strips with spicy noodles.",
+          "description": "Tender beef strips stir-fried with noodles, vegetables, and a spicy sauce."
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": "Burgers",
+      "foods": [
+        {
+          "id": "chicken-burger",
+          "name": "Chicken Burger",
+          "price": 900,
+          "image": "/images/menu/chicken-burger.jpg",
+          "shortDescription": "Crispy chicken patty burger.",
+          "description": "A golden-fried chicken patty with lettuce, tomato, and mayo in a soft bun."
+        },
+        {
+          "id": "beef-burger",
+          "name": "Beef Burger",
+          "price": 1000,
+          "image": "/images/menu/beef-burger.jpg",
+          "shortDescription": "Juicy beef patty with cheese.",
+          "description": "A thick beef patty, cheddar cheese, onions, and house sauce in a toasted bun."
+        },
+        {
+          "id": "veggie-burger",
+          "name": "Veggie Burger",
+          "price": 800,
+          "image": "/images/menu/veggie-burger.jpg",
+          "shortDescription": "Grilled veggie patty burger.",
+          "description": "A wholesome burger with a grilled vegetable patty, lettuce, and tangy sauce."
+        },
+        {
+          "id": "fish-burger",
+          "name": "Fish Burger",
+          "price": 950,
+          "image": "/images/menu/fish-burger.jpg",
+          "shortDescription": "Crispy fish fillet burger.",
+          "description": "A crunchy fish fillet, tartar sauce, and fresh greens in a sesame bun."
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "foods": [
+        {
+          "id": "mango-juice",
+          "name": "Mango Juice",
+          "price": 350,
+          "image": "/images/menu/mango-juice.jpg",
+          "shortDescription": "Fresh mango juice.",
+          "description": "Sweet and refreshing mango juice made from ripe local mangoes."
+        },
+        {
+          "id": "lime-soda",
+          "name": "Lime Soda",
+          "price": 300,
+          "image": "/images/menu/lime-soda.jpg",
+          "shortDescription": "Chilled lime soda.",
+          "description": "A fizzy and tangy lime soda, perfect for hot days."
+        },
+        {
+          "id": "faluda",
+          "name": "Faluda",
+          "price": 500,
+          "image": "/images/menu/faluda.jpg",
+          "shortDescription": "Classic Sri Lankan faluda.",
+          "description": "A sweet, milky drink with rose syrup, ice cream, and basil seeds."
+        },
+        {
+          "id": "iced-coffee",
+          "name": "Iced Coffee",
+          "price": 400,
+          "image": "/images/menu/iced-coffee.jpg",
+          "shortDescription": "Chilled coffee with milk.",
+          "description": "Rich coffee served cold with milk and a hint of sweetness."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+/* Color palette for PASTI Restaurant */
+:root {
+	--color-bg: #0F0F0F;
+	--color-primary: #F5B301;
+	--color-text-main: #FFFFFF;
+	--color-text-muted: #B3B3B3;
+	--color-divider: #2A2A2A;
+}
