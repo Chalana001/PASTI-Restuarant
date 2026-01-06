@@ -23,187 +23,170 @@ body, html, #root, .app-root {
   background: var(--color-bg);
   color: var(--color-text-main);
 }
-/* 
-.navbar {
+
+.navbar-new {
   position: fixed;
   top: 0;
-  width: 100%;
-  height: 72px;
-  z-index: 1000;
-
-  background: rgba(0, 0, 0, 0.55);
-  backdrop-filter: blur(8px);
+  left: 0;
+  width: 100vw;
+  z-index: 2000;
+  min-height: 62px;
+  padding: 0;
+  background: rgba(15,15,15,0.65);
+  display: flex;
+  flex-direction: column;
+  transition: background 0.3s cubic-bezier(.4,0,.2,1), box-shadow 0.3s;
 }
-
-.nav-container {
+.navbar-inner {
   max-width: 1200px;
-  height: 100%;
   margin: 0 auto;
-  padding: 0 32px;
-
+  width: 100%;
+  height: 62px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 18px;
 }
-
-.nav-logo {
+.navbar-logo {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: 600;
+  text-decoration: none;
+}
+.navbar-logo img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #fff;
+}
+.navbar-logo span {
+  color: var(--color-primary);
+  font-size: 1.3rem;
+  font-weight: bold;
   letter-spacing: 1px;
 }
-
-.nav-logo img {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
+.navbar-links {
+  display: flex;
+  gap: 32px;
 }
-
-.nav-logo span {
-  color: var(--color-primary);
-  font-size: 18px;
-}
-
-
-.nav-links a {
+.navbar-link {
   color: var(--color-text-main);
   text-decoration: none;
-  margin-left: 28px;
-  font-size: 15px;
+  font-size: 1.08rem;
+  font-weight: 500;
+  transition: color 0.2s;
   position: relative;
-  opacity: 0.85;
 }
-.nav-links a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 0;
-  height: 2px;
-  background: var(--color-primary);
-  transition: width 0.25s ease;
-}
-
-.nav-links a:hover {
-  opacity: 1;
-}
-
-.nav-links a:hover::after {
-  width: 100%;
-} */
-
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 64px;
-  z-index: 1000;
-  background: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(8px);
-}
-
-.nav-container {
-  max-width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* LOGO */
-.nav-logo {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-}
-
-.nav-logo img {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-}
-
-.nav-logo span {
+.navbar-link:hover {
   color: var(--color-primary);
-  font-weight: 600;
-  font-size: 16px;
 }
 
-/* DESKTOP LINKS */
-.nav-links {
-  display: flex;
-  gap: 28px;
-}
-
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 14px;
-  opacity: 0.85;
-}
-
-.nav-links a:hover {
-  opacity: 1;
-}
-
-/* HAMBURGER */
-.nav-toggle {
+.navbar-hamburger {
   display: none;
   background: none;
   border: none;
-  font-size: 24px;
-  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 88px;
+  height: 60px;
   cursor: pointer;
+  z-index: 2100;
+}
+.navbar-hamburger span {
+  display: block;
+  width: 22px;
+  height: 3px;
+  background: var(--color-text-main);
+  margin: 3px 0;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+.navbar-hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.navbar-hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.navbar-hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
-/* ======================
-   MOBILE
-====================== */
-@media (max-width: 768px) {
-  .nav-links {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.96);
-    backdrop-filter: blur(6px);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
-    z-index: 1050;
-  }
-
-  .nav-links.open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }
-
-  /* MENU CONTAINER */
-  .nav-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-    text-align: center;
-  }
-
-  .nav-menu a {
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-  }
+/* Close (X) icon for mobile navbar */
+.navbar-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  width: 88px;
+  height: 60px;
+  margin-right: 2px;
+  cursor: pointer;
+  z-index: 2100;
+  padding: 0;
+}
+.navbar-close svg {
+  display: block;
 }
 
+/* Mobile dropdown */
+.navbar-mobile-menu {
+  position: fixed;
+  top: 62px;
+  left: 0;
+  width: 100vw;
+  background: rgba(15,15,15,0.97);
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0 24px 0;
+  z-index: 2050;
+  animation: navbarDrop 0.25s cubic-bezier(.4,0,.2,1);
+}
+@keyframes navbarDrop {
+  from { opacity: 0; transform: translateY(-24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.navbar-mobile-link {
+  color: var(--color-text-main);
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 12px 0;
+  padding: 8px 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+.navbar-mobile-link:hover {
+  color: var(--color-primary);
+  background: rgba(245,179,1,0.08);
+}
 
+@media (max-width: 900px) {
+  .navbar-links {
+    display: none;
+  }
+  .navbar-hamburger {
+    display: flex;
+  }
+  .navbar-inner {
+    padding-right: 10px;
+    min-height: 56px;
+  }
+  .navbar-hamburger {
+    margin-right: 2px;
+    align-self: flex-end;
+  }
+}
+@media (min-width: 901px) {
+  .navbar-mobile-menu {
+    display: none !important;
+  }
+}
 .hero-section {
   position: relative;
   width: 100vw;
@@ -434,8 +417,8 @@ body, html, #root, .app-root {
 
 .menu-page {
   max-width: 1100px;
-  margin: 2.5rem auto 2rem auto;
-  padding-top: 40px;
+  margin: 0 auto 2rem auto;
+
 }
 .menu-title {
   font-size: 2.2rem;
@@ -475,7 +458,7 @@ body, html, #root, .app-root {
   padding: 0.5em 1.5em;
   font-size: 1rem;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.5s;
 }
 .category-filter button.active, .category-filter button:hover {
   background: var(--color-primary);
@@ -633,7 +616,7 @@ body, html, #root, .app-root {
 
 .about-page, .contact-page {
   max-width: 700px;
-  margin: 2.5rem auto 2rem auto;
+  margin: 0 auto 2rem auto;
   padding: 40px;
   color: var(--color-text-main);
 }
@@ -699,178 +682,8 @@ body, html, #root, .app-root {
     display: flex;
     justify-content: space-between;
   }
-  .menu-page, .about-page, .contact-page, .food-details-page {
-    padding: 0 0.3rem;
-  }
-  /* .foods-grid mobile override removed to keep consistent card sizing */
 }
 
-/* --- NEW NAVBAR STYLES --- */
-.navbar-new {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  z-index: 2000;
-  min-height: 62px;
-  padding: 0;
-  background: rgba(15,15,15,0.65);
-  display: flex;
-  flex-direction: column;
-  transition: background 0.3s cubic-bezier(.4,0,.2,1), box-shadow 0.3s;
-}
-.navbar-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
-  height: 62px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 18px;
-}
-.navbar-logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-}
-.navbar-logo img {
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  background: #fff;
-}
-.navbar-logo span {
-  color: var(--color-primary);
-  font-size: 1.3rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-.navbar-links {
-  display: flex;
-  gap: 32px;
-}
-.navbar-link {
-  color: var(--color-text-main);
-  text-decoration: none;
-  font-size: 1.08rem;
-  font-weight: 500;
-  transition: color 0.2s;
-  position: relative;
-}
-.navbar-link:hover {
-  color: var(--color-primary);
-}
-
-.navbar-hamburger {
-  display: none;
-  background: none;
-  border: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 28px;
-  height: 28px;
-  cursor: pointer;
-  z-index: 2100;
-}
-.navbar-hamburger span {
-  display: block;
-  width: 22px;
-  height: 3px;
-  background: var(--color-text-main);
-  margin: 3px 0;
-  border-radius: 2px;
-  transition: all 0.3s;
-}
-.navbar-hamburger.open span:nth-child(1) {
-  transform: translateY(7px) rotate(45deg);
-}
-.navbar-hamburger.open span:nth-child(2) {
-  opacity: 0;
-}
-.navbar-hamburger.open span:nth-child(3) {
-  transform: translateY(-7px) rotate(-45deg);
-}
-
-/* Close (X) icon for mobile navbar */
-.navbar-close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: none;
-  border: none;
-  width: 28px;
-  height: 28px;
-  margin-right: 2px;
-  cursor: pointer;
-  z-index: 2100;
-  padding: 0;
-}
-.navbar-close svg {
-  display: block;
-}
-
-/* Mobile dropdown */
-.navbar-mobile-menu {
-  position: fixed;
-  top: 62px;
-  left: 0;
-  width: 100vw;
-  background: rgba(15,15,15,0.97);
-  backdrop-filter: blur(12px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 32px 0 24px 0;
-  z-index: 2050;
-  animation: navbarDrop 0.25s cubic-bezier(.4,0,.2,1);
-}
-@keyframes navbarDrop {
-  from { opacity: 0; transform: translateY(-24px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.navbar-mobile-link {
-  color: var(--color-text-main);
-  text-decoration: none;
-  font-size: 1.25rem;
-  font-weight: 500;
-  margin: 12px 0;
-  padding: 8px 0;
-  width: 100%;
-  text-align: center;
-  border-radius: 8px;
-  transition: background 0.2s, color 0.2s;
-}
-.navbar-mobile-link:hover {
-  color: var(--color-primary);
-  background: rgba(245,179,1,0.08);
-}
-
-@media (max-width: 900px) {
-  .navbar-links {
-    display: none;
-  }
-  .navbar-hamburger {
-    display: flex;
-  }
-  .navbar-inner {
-    padding-right: 10px;
-    min-height: 56px;
-  }
-  .navbar-hamburger {
-    margin-right: 2px;
-    align-self: flex-end;
-  }
-}
-@media (min-width: 901px) {
-  .navbar-mobile-menu {
-    display: none !important;
-  }
-}
-
-/* Add padding to page content so it doesn't hide under navbar */
-.app-root, .menu-page, .about-page, .contact-page, .food-details-page {
-  padding-top: 70px !important;
+.menu-page {
+  padding-top: 40px !important;
 }
