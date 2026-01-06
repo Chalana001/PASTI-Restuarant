@@ -15,14 +15,10 @@ function App() {
   return (
     <div className="app-root">
       <Routes>
-
-        <Route path="/" element={<HomePage />} />
-
-
-        {/* <Route
+        <Route
           path="/"
           element={<HomePage onViewMenu={() => navigate("/menu")} />}
-        /> */}
+        />
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/menu/:foodId" element={<FoodDetailsPage />} />
         <Route path="/about" element={<AboutPage />} />
