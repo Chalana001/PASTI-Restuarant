@@ -1,76 +1,3 @@
-/* Google Reviews Section */
-/* .google-reviews {
-  margin: 3rem auto 2rem auto;
-  max-width: 700px;
-  background: #181818;
-  border-radius: 18px;
-  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.10);
-  padding: 2rem 1.5rem;
-  text-align: center;
-}
-.reviews-title {
-  color: var(--color-primary);
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
-.google-reviews-embed iframe {
-  width: 100%;
-  min-height: 350px;
-  border-radius: 16px;
-  border: none;
-}
-.reviews-actions {
-  margin-top: 2.2rem;
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.reviews-btn {
-  padding: 12px 30px;
-  border-radius: 30px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.25s ease;
-}
-
-.reviews-btn.primary {
-  background: var(--color-primary);
-  color: #000;
-}
-
-.reviews-btn.primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(245, 179, 1, 0.4);
-}
-
-.reviews-btn.secondary {
-  background: transparent;
-  color: var(--color-primary);
-  border: 2px solid var(--color-primary);
-}
-
-.reviews-btn.secondary:hover {
-  background: var(--color-primary);
-  color: #000;
-}
-@media (max-width: 600px) {
-  .food-card {
-    max-width: 340px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .food-card-img {
-    aspect-ratio: 4/3;
-    width: 100%;
-    height: auto !important;
-    object-fit: cover;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
-  }
-} */
 
 /* ===== Google Reviews Section ===== */
 .google-reviews {
@@ -582,6 +509,7 @@ body, html, #root, .app-root {
 .menu-page {
   max-width: 1100px;
   margin: 0 auto 2rem auto;
+  padding: 1.5rem;
 
 }
 .menu-title {
@@ -677,13 +605,15 @@ body, html, #root, .app-root {
   flex-direction: column;
   outline: none;
 }
+
+
 .food-card:hover, .food-card:focus {
   transform: translateY(-6px) scale(1.03);
   box-shadow: 0 6px 24px rgba(245,179,1,0.13);
 }
 .food-card-img {
   width: 100%;
-  height: 160px;
+  height: 260px;
   object-fit: cover;
   background: var(--color-bg);
 }
@@ -725,6 +655,7 @@ body, html, #root, .app-root {
   max-width: 900px;
   margin: 2.5rem auto 2rem auto;
   padding-top: 40px;
+  padding: 1.5rem;
 }
 .food-details-container {
   display: flex;
@@ -778,16 +709,294 @@ body, html, #root, .app-root {
   margin-bottom: 1rem;
 }
 
-.about-page, .contact-page {
-  max-width: 700px;
-  margin: 0 auto 2rem auto;
-  padding: 40px;
-  color: var(--color-text-main);
+/* About Page */
+.about-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 5rem;
+  color: #fff;
 }
-.about-page h2, .contact-page h2 {
-  color: var(--color-primary);
-  margin-bottom: 1.2rem;
+
+/* Hero */
+.about-hero {
+  text-align: center;
+  margin-bottom: 3.5rem;
 }
+
+.about-hero h1 {
+  font-size: 2.6rem;
+  color: #f5b301;
+  margin-bottom: 0.8rem;
+}
+
+.about-hero p {
+  color: #ccc;
+  font-size: 1.1rem;
+}
+
+/* Sections */
+.about-section {
+  max-width: 800px;
+  margin: 0 auto 3.5rem auto;
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #f5b301;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  color: #ddd;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Highlights */
+.about-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.highlight-card {
+  background: #181818;
+  padding: 1.8rem;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+  text-align: center;
+}
+
+.highlight-card h3 {
+  color: #f5b301;
+  margin-bottom: 0.6rem;
+}
+
+.highlight-card p {
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+/* CTA */
+.about-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.about-btn {
+  padding: 0.8rem 1.8rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-btn.primary {
+  background: #f5b301;
+  color: #000;
+}
+
+.about-btn.secondary {
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.about-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.45);
+}
+
+/* ===== Real Restaurant Photos Section ===== */
+.restaurant-photos {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.section-title {
+  color: #f5b301;
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+.section-subtitle {
+  color: #aaa;
+  margin-bottom: 2.5rem;
+  font-size: 0.95rem;
+}
+
+/* Cards grid */
+.photo-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.8rem;
+}
+
+/* Card */
+.photo-card {
+  background: #181818;
+  border-radius: 22px;
+  padding: 1.2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.photo-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.5);
+}
+
+/* Image */
+.photo-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+}
+
+/* Title */
+.photo-card h4 {
+  color: #f5b301;
+  margin-bottom: 0.6rem;
+  font-size: 1.05rem;
+}
+
+/* Bullet points */
+.photo-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.photo-card ul li {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  position: relative;
+  padding-left: 14px;
+}
+
+.photo-card ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #f5b301;
+}
+
+/* Mobile spacing */
+@media (max-width: 768px) {
+  .photo-card img {
+    height: 180px;
+  }
+}
+.team-section {
+  max-width: 1100px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+/* Row layout */
+.team-row {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+/* Reverse for chef */
+.team-row.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Image */
+.team-image {
+  flex: 1;
+}
+
+.team-image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 22px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.35);
+}
+
+/* Content */
+.team-content {
+  flex: 1;
+}
+
+.team-content h3 {
+  color: #f5b400;
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.team-content h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.team-content p {
+  color: #ccc;
+  line-height: 1.7;
+  margin-bottom: 0.8rem;
+}
+
+.team-content .line {
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  background: #f5b400;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .team-row,
+  .team-row.reverse {
+    flex-direction: column;
+  }
+
+  .team-image img {
+    height: 320px;
+  }
+}
+
+/* ===============================
+   Responsive (Tablet & Mobile)
+================================ */
+
+@media (max-width: 900px) {
+  .about-person,
+  .about-person.reverse {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .person-image {
+    height: 300px;                   /* mobile-friendly */
+    margin-bottom: 1.5rem;
+  }
+
+  .person-content {
+    max-width: 100%;
+  }
+
+  .person-content::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
 .footer {
   background: var(--color-divider);
   color: var(--color-text-main);
@@ -796,19 +1005,102 @@ body, html, #root, .app-root {
   font-size: 1rem;
   margin-top: 3rem;
 }
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  font-size: 1.1rem;
+/* Contact Page */
+.contact-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 5rem;
+  color: #fff;
+  text-align: center;
 }
-.contact-info a {
-  color: var(--color-primary);
+
+.contact-title {
+  font-size: 2.4rem;
+  color: #f5b301;
+  margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+  color: #ccc;
+  margin-bottom: 3rem;
+}
+
+/* Cards */
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.contact-card {
+  background: #181818;
+  padding: 1.6rem;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+}
+
+.contact-card h3 {
+  color: #f5b301;
+  margin-bottom: 0.6rem;
+}
+
+.contact-card a {
+  color: #fff;
   text-decoration: none;
+  font-weight: 600;
 }
-.contact-info a:hover {
-  text-decoration: underline;
+
+.contact-card span {
+  color: #aaa;
+  font-size: 0.9rem;
 }
+
+/* Map */
+.contact-map {
+  margin: 3rem 0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
+}
+
+/* CTA buttons */
+.contact-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  padding: 0.8rem 1.8rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-btn.dark {
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.contact-btn.whatsapp {
+  background: #25d366;
+  color: #fff;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.45);
+}
+
 .map-placeholder {
   margin-top: 1.2rem;
 }
