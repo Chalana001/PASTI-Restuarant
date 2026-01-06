@@ -1,10 +1,11 @@
 import React from "react";
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-  useNavigate,
-} from "react-router-dom";
+// import {
+//   HashRouter as Router,
+//   Routes,
+//   Route,
+//   useNavigate,
+// } from "react-router-dom";
+import { Router } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import MenuPage from "./pages/MenuPage";
