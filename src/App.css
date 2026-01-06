@@ -851,3 +851,59 @@ body, html, #root, .app-root {
 .menu-page {
   padding-top: 40px !important;
 }
+
+/* ===== Sticky Buttons Equal Size & Inline Content ===== */
+.sticky-contact {
+  position: fixed;
+  bottom: calc(14px + env(safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: 999999;
+}
+
+/* Base button (already equal size) */
+.sticky-btn {
+  width: 130px;
+  height: 48px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* 📞 Call button */
+.sticky-btn.call {
+  background: #1f1f1f;   /* dark neutral */
+  color: #ffffff;
+  border: 1.5px solid #333;
+}
+
+/* 💬 WhatsApp button */
+.sticky-btn.whatsapp {
+  background: #25D366;   /* WhatsApp green */
+  color: #ffffff;
+  border: none;
+}
+
+/* Hover */
+.sticky-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.45);
+}
+
+
+/* Hide on desktop */
+@media (min-width: 900px) {
+  .sticky-contact {
+    display: none;
+  }
+}
+

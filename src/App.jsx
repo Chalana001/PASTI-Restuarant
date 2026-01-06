@@ -12,6 +12,7 @@ import FoodDetailsPage from "./pages/FoodDetailsPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import Navbar from "./components/Navbar";
+import StickyContactButtons from "./components/StickyContactButtons";
 
 import "./App.css";
 
@@ -36,15 +37,13 @@ function AppRoutes() {
         {/* Fallback */}
         <Route path="*" element={<HomePage />} />
       </Routes>
-
       <footer className="footer">
         © {new Date().getFullYear()} PASTI Restaurant
       </footer>
+      <StickyContactButtons />
     </div>
   );
 }
-
-/* ---------------- ROUTER WRAPPER ---------------- */
 
 export default function AppWithRouter() {
   return (
