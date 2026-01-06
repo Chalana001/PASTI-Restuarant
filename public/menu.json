@@ -1,40 +1,422 @@
 {
   "categories": [
     {
-      "id": "rice-dishes",
-      "name": "Rice Dishes",
+      "id": "pasti-special-pizza",
+      "name": "Pasti Special Pizza",
       "foods": [
         {
-          "id": "chicken-biryani",
-          "name": "Chicken Biryani",
-          "price": 1200,
-          "image": "/images/menu/chicken-biryani.jpg",
-          "shortDescription": "Aromatic basmati rice with spiced chicken.",
-          "description": "Tender chicken cooked with fragrant basmati rice, Sri Lankan spices, and caramelized onions. Served with raita and boiled egg."
+          "id": "chicken-naimiris-pizza",
+          "name": "Chicken Naimiris Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1690
+            },
+            {
+              "label": "Large",
+              "value": 2150
+            }
+          ],
+          "shortDescription": "Special naimiris chicken pizza.",
+          "description": "Mozzarella cheese topped with special chicken concasse and devilled naimiris chili sauce, baked on a tomato base."
         },
+        {
+          "id": "prawns-naimiris-pizza",
+          "name": "Prawns Naimiris Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1790
+            },
+            {
+              "label": "Large",
+              "value": 2590
+            }
+          ],
+          "shortDescription": "Spicy prawn naimiris pizza.",
+          "description": "Succulent prawns cooked in special naimiris chili sauce with mozzarella cheese on a tomato base."
+        },
+        {
+          "id": "pork-naimiris-pizza",
+          "name": "Pork Naimiris Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1790
+            },
+            {
+              "label": "Large",
+              "value": 2590
+            }
+          ],
+          "shortDescription": "Spicy pork naimiris pizza.",
+          "description": "Special pork concasse mixed with devilled naimiris chili sauce and mozzarella cheese over tomato sauce."
+        },
+        {
+          "id": "hot-butter-vegetable-naimiris-pizza",
+          "name": "Hot Butter Vegetable Naimiris Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1490
+            },
+            {
+              "label": "Large",
+              "value": 1990
+            }
+          ],
+          "shortDescription": "Hot butter vegetable naimiris pizza.",
+          "description": "Hot butter vegetables cooked in special naimiris butter sauce topped with mozzarella cheese on tomato base."
+        },
+        {
+          "id": "seafood-naimiris-pizza",
+          "name": "Seafood Naimiris Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1490
+            },
+            {
+              "label": "Large",
+              "value": 2690
+            }
+          ],
+          "shortDescription": "Spicy seafood naimiris pizza.",
+          "description": "Mixed seafood concasse combined with devilled naimiris chili sauce and mozzarella cheese over tomato base."
+        }
+      ]
+    },
+    {
+      "id": "regular-pizza",
+      "name": "Regular Pizza",
+      "foods": [
+        {
+          "id": "margherita-pizza",
+          "name": "Margherita Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1290
+            },
+            {
+              "label": "Large",
+              "value": 1690
+            }
+          ],
+          "shortDescription": "Classic cheese pizza.",
+          "description": "Traditional pizza topped with rich tomato sauce, fresh mozzarella cheese, and oregano herbs."
+        },
+        {
+          "id": "chicken-pepperoni-pizza",
+          "name": "Chicken Pepperoni Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1290
+            },
+            {
+              "label": "Large",
+              "value": 1790
+            }
+          ],
+          "shortDescription": "Chicken pepperoni with cheese.",
+          "description": "Spicy chicken pepperoni layered with mozzarella cheese, bell peppers, black olives, and herbs."
+        },
+        {
+          "id": "beef-pepperoni-pizza",
+          "name": "Beef Pepperoni Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1390
+            },
+            {
+              "label": "Large",
+              "value": 1890
+            }
+          ],
+          "shortDescription": "Beef pepperoni pizza.",
+          "description": "Premium beef pepperoni combined with mozzarella cheese, bell peppers, olives, and tomato sauce."
+        },
+        {
+          "id": "chicken-pizza",
+          "name": "Chicken Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1490
+            },
+            {
+              "label": "Large",
+              "value": 1990
+            }
+          ],
+          "shortDescription": "Battered chicken pizza.",
+          "description": "Crispy battered chicken pieces with mozzarella cheese, vegetables, and herbs on tomato base."
+        },
+        {
+          "id": "pork-pizza",
+          "name": "Pork Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1590
+            },
+            {
+              "label": "Large",
+              "value": 2390
+            }
+          ],
+          "shortDescription": "Savory pork pizza.",
+          "description": "Juicy pork pieces layered with mozzarella cheese, bell peppers, olives, and herbs."
+        },
+        {
+          "id": "hot-butter-cuttlefish-pizza",
+          "name": "Hot Butter Cuttlefish Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1690
+            },
+            {
+              "label": "Large",
+              "value": 2690
+            }
+          ],
+          "shortDescription": "Hot butter cuttlefish pizza.",
+          "description": "Spicy hot butter cuttlefish topped with mozzarella cheese, vegetables, and herbs."
+        },
+        {
+          "id": "vegetable-pizza",
+          "name": "Vegetable Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1000
+            },
+            {
+              "label": "Large",
+              "value": 1400
+            }
+          ],
+          "shortDescription": "Fresh vegetable pizza.",
+          "description": "A mix of fresh vegetables layered with mozzarella cheese and tomato sauce."
+        },
+        {
+          "id": "devilled-chicken-pizza",
+          "name": "Devilled Chicken Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1600
+            },
+            {
+              "label": "Large",
+              "value": 2100
+            }
+          ],
+          "shortDescription": "Spicy devilled chicken pizza.",
+          "description": "Devilled chicken cooked in spicy sauce with mozzarella cheese on tomato base."
+        },
+        {
+          "id": "hot-butter-mushroom-pizza",
+          "name": "Hot Butter Mushroom Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1490
+            },
+            {
+              "label": "Large",
+              "value": 1990
+            }
+          ],
+          "shortDescription": "Hot butter mushroom pizza.",
+          "description": "Hot butter mushrooms layered with mozzarella cheese and tomato sauce."
+        },
+        {
+          "id": "italian-pizza",
+          "name": "Italian Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1490
+            },
+            {
+              "label": "Large",
+              "value": 1990
+            }
+          ],
+          "shortDescription": "Italian-style pizza.",
+          "description": "Italian-inspired pizza topped with pork bacon, basil herbs, vegetables, olives, and mozzarella cheese."
+        },
+        {
+          "id": "marinara-pizza",
+          "name": "Marinara Pizza",
+          "image": "",
+          "prices": [
+            {
+              "label": "Medium",
+              "value": 1690
+            },
+            {
+              "label": "Large",
+              "value": 2190
+            }
+          ],
+          "shortDescription": "Seafood marinara pizza.",
+          "description": "Seafood mix with onions, tomatoes, basil herbs, mozzarella cheese, and tomato sauce."
+        }
+      ]
+    },
+    {
+      "id": "fried-rice",
+      "name": "Fried Rice",
+      "foods": [
         {
           "id": "egg-fried-rice",
           "name": "Egg Fried Rice",
-          "price": 900,
           "image": "/images/menu/egg-fried-rice.jpg",
-          "shortDescription": "Classic fried rice with eggs and veggies.",
-          "description": "Fluffy rice stir-fried with eggs, carrots, spring onions, and a touch of soy sauce. A simple yet satisfying meal."
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 990
+            }
+          ],
+          "shortDescription": "Vegetables Egg rice served with fried egg, chilli paste and tomato sauce.",
+          "description": "Vegetable egg rice prepared with mixed vegetables and rice, served with a fried egg, chilli paste, and tomato sauce."
         },
         {
-          "id": "seafood-rice",
-          "name": "Seafood Rice",
-          "price": 1500,
-          "image": "/images/menu/seafood-rice.jpg",
-          "shortDescription": "Mixed seafood with spicy rice.",
-          "description": "A medley of prawns, cuttlefish, and fish tossed with spicy rice and fresh herbs. A coastal favorite."
+          "id": "chicken-fried-rice",
+          "name": "Chicken Fried Rice",
+          "image": "/images/menu/chicken-fried-rice.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1190
+            }
+          ],
+          "shortDescription": "Served with tandoori chicken leg, chilli paste and tomato sauce.",
+          "description": "Fried rice cooked with vegetables and rice, served with a tandoori chicken leg, chilli paste, and tomato sauce."
         },
         {
-          "id": "vegetable-rice",
-          "name": "Vegetable Rice",
-          "price": 800,
-          "image": "/images/menu/vegetable-rice.jpg",
-          "shortDescription": "Colorful veggies with seasoned rice.",
-          "description": "A healthy mix of seasonal vegetables cooked with lightly spiced rice. Perfect for vegetarians."
+          "id": "fish-fried-rice",
+          "name": "Fish Fried Rice",
+          "image": "/images/menu/fish-fried-rice.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1190
+            }
+          ],
+          "shortDescription": "Served with Fish devilled chopsey, chilli paste and tomato sauce.",
+          "description": "Fried rice served with devilled fish chopsey, mixed vegetables, chilli paste, and tomato sauce."
+        },
+        {
+          "id": "mix-fried-rice",
+          "name": "Mix Fried Rice",
+          "image": "/images/menu/mix-fried-rice.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1390
+            }
+          ],
+          "shortDescription": "Served with Mix meat, chopsey, chilli paste, savory omlet and tomato sauce.",
+          "description": "Mixed meat fried rice served with chopsey, chilli paste, savory omelet, and tomato sauce."
+        },
+        {
+          "id": "chili-chicken-with-egg-rice",
+          "name": "Chili Chicken With Egg Rice",
+          "image": "/images/menu/chili-chicken-with-egg-rice.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1490
+            }
+          ],
+          "shortDescription": "Devilled chilli chicken with chilli paste and tomato sauce.",
+          "description": "Egg rice served with devilled chilli chicken, accompanied by chilli paste and tomato sauce."
+        },
+        {
+          "id": "mongolian-seafood-rice-basmathi",
+          "name": "Mongolian Seafood Rice (Basmathi)",
+          "image": "/images/menu/mongolian-seafood-rice-basmathi.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1490
+            }
+          ],
+          "shortDescription": "Sea food mix, mongolian style rice with chilli paste and tomato sauce.",
+          "description": "Basmathi rice cooked Mongolian style with a seafood mix, served with chilli paste and tomato sauce."
+        },
+        {
+          "id": "chilli-pork-with-egg-rice",
+          "name": "Chilli Pork With Egg Rice",
+          "image": "/images/menu/chilli-pork-with-egg-rice.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1690
+            }
+          ],
+          "shortDescription": "chilli pork with egg rice, devilled chilli pork with chilli paste & tomato sauce.",
+          "description": "Egg rice served with devilled chilli pork, chilli paste, and tomato sauce."
+        },
+        {
+          "id": "spicy-mix-rice-basmathi",
+          "name": "Spicy Mix Rice (Basmathi)",
+          "image": "/images/menu/spicy-mix-rice-basmathi.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1590
+            }
+          ],
+          "shortDescription": "pasthi special naimiris mix meat, spicy rice with fried egg, sausage chilli paste & tomato sauce.",
+          "description": "Basmathi spicy rice with pasti special naimiris mix meat, fried egg, sausage, chilli paste, and tomato sauce."
+        },
+        {
+          "id": "chicken-fried-rice-sawan-5-pax",
+          "name": "Chicken Fried Rice Sawan (5 Pax)",
+          "image": "/images/menu/chicken-fried-rice-sawan-5-pax.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 2490
+            }
+          ],
+          "shortDescription": "Fried chicken, chilli paste & tomato sauce.",
+          "description": "Large sawan portion of chicken fried rice served with chilli paste and tomato sauce, suitable for sharing."
+        },
+        {
+          "id": "seafood-fried-rice-5-pax",
+          "name": "Seafood Fried Rice (5 Pax)",
+          "image": "/images/menu/seafood-fried-rice-5-pax.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 2990
+            }
+          ],
+          "shortDescription": "Fried seafood, chilli paste & tomato sauce.",
+          "description": "Large sawan portion of seafood fried rice served with chilli paste and tomato sauce, ideal for groups."
         }
       ]
     },
@@ -43,82 +425,302 @@
       "name": "Kottu",
       "foods": [
         {
+          "id": "vegetable-kottu",
+          "name": "Vegetable Kottu",
+          "image": "/images/menu/kottu/vegetable-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 990
+            }
+          ],
+          "shortDescription": "Served with chilli paste, gravy & tomato sauce.",
+          "description": "Godamba roti chopped and stir-fried with mixed vegetables, served with chilli paste, gravy, and tomato sauce."
+        },
+        {
           "id": "chicken-kottu",
           "name": "Chicken Kottu",
-          "price": 1100,
-          "image": "/images/menu/chicken-kottu.jpg",
-          "shortDescription": "Chopped roti with chicken and veggies.",
-          "description": "Sri Lanka's favorite street food: godamba roti stir-fried with chicken, vegetables, and aromatic spices."
+          "image": "/images/menu/kottu/chicken-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1190
+            }
+          ],
+          "shortDescription": "Served with chilli paste, gravy & tomato sauce.",
+          "description": "Chopped godamba roti stir-fried with chicken and vegetables, served with chilli paste, gravy, and tomato sauce."
         },
         {
-          "id": "cheese-kottu",
-          "name": "Cheese Kottu",
-          "price": 1300,
-          "image": "/images/menu/cheese-kottu.jpg",
-          "shortDescription": "Creamy cheese mixed with kottu.",
-          "description": "A rich and indulgent kottu with gooey cheese, roti, and a blend of fresh vegetables."
+          "id": "fish-kottu",
+          "name": "Fish Kottu",
+          "image": "/images/menu/kottu/fish-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1290
+            }
+          ],
+          "shortDescription": "Served with chilli paste, gravy & tomato sauce.",
+          "description": "Godamba roti mixed with fish pieces and vegetables, served with chilli paste, gravy, and tomato sauce."
         },
         {
-          "id": "egg-kottu",
-          "name": "Egg Kottu",
-          "price": 950,
-          "image": "/images/menu/egg-kottu.jpg",
-          "shortDescription": "Eggs and roti stir-fried together.",
-          "description": "Soft godamba roti, scrambled eggs, and vegetables tossed in a spicy sauce."
+          "id": "pork-kottu",
+          "name": "Pork Kottu",
+          "image": "/images/menu/kottu/pork-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1390
+            }
+          ],
+          "shortDescription": "Served with chilli paste, gravy & tomato sauce.",
+          "description": "Chopped godamba roti stir-fried with pork and vegetables, served with chilli paste, gravy, and tomato sauce."
         },
         {
           "id": "beef-kottu",
           "name": "Beef Kottu",
-          "price": 1400,
-          "image": "/images/menu/beef-kottu.jpg",
-          "shortDescription": "Tender beef with spicy kottu.",
-          "description": "Juicy beef pieces cooked with roti, vegetables, and signature kottu spices."
+          "image": "/images/menu/kottu/beef-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1490
+            }
+          ],
+          "shortDescription": "Served with chilli paste, gravy & tomato sauce.",
+          "description": "Classic beef kottu prepared with chopped roti, vegetables, chilli paste, gravy, and tomato sauce."
+        },
+        {
+          "id": "nai-miris-kottu-bite",
+          "name": "Nai Miris Kottu Bite",
+          "image": "/images/menu/kottu/nai-miris-kottu-bite.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1790
+            }
+          ],
+          "shortDescription": "Pasti special mix meat naimiris kottu Served with chilli paste, gravy & tomato sauce.",
+          "description": "Pasti special mix meat naimiris kottu prepared with chopped roti, spicy mix meat, served with chilli paste, gravy, and tomato sauce."
+        },
+        {
+          "id": "chicken-cheese-kottu",
+          "name": "Chicken Cheese Kottu",
+          "image": "/images/menu/kottu/chicken-cheese-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1690
+            }
+          ],
+          "shortDescription": "Fresh milk, happy cow cheese, vegetables.",
+          "description": "Chicken kottu cooked with fresh milk, happy cow cheese, vegetables, and chopped godamba roti."
+        },
+        {
+          "id": "pork-cheese-kottu",
+          "name": "Pork Cheese Kottu",
+          "image": "/images/menu/kottu/pork-cheese-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1990
+            }
+          ],
+          "shortDescription": "Fresh milk, happy cow cheese, vegetables.",
+          "description": "Pork kottu prepared with fresh milk, happy cow cheese, vegetables, and chopped roti."
+        },
+        {
+          "id": "beef-cheese-kottu",
+          "name": "Beef Cheese Kottu",
+          "image": "/images/menu/kottu/beef-cheese-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 2490
+            }
+          ],
+          "shortDescription": "Fresh milk, happy cow cheese, vegetables.",
+          "description": "Beef kottu cooked with fresh milk, happy cow cheese, vegetables, and chopped godamba roti."
+        },
+        {
+          "id": "seafood-cheese-kottu",
+          "name": "Seafood Cheese Kottu",
+          "image": "/images/menu/kottu/seafood-cheese-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1990
+            }
+          ],
+          "shortDescription": "Fresh milk, happy cow cheese, vegetables.",
+          "description": "Seafood kottu prepared with fresh milk, happy cow cheese, vegetables, and chopped roti."
+        },
+        {
+          "id": "chicken-dolpin-kottu",
+          "name": "Chicken Dolpin Kottu",
+          "image": "/images/menu/kottu/chicken-dolpin-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1190
+            }
+          ],
+          "shortDescription": "chicken, Vegetable, kochchi.",
+          "description": "Chicken dolpin kottu cooked with vegetables, kochchi chillies, and chopped godamba roti."
+        },
+        {
+          "id": "pork-dolpin-kottu",
+          "name": "Pork Dolpin Kottu",
+          "image": "/images/menu/kottu/pork-dolpin-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1390
+            }
+          ],
+          "shortDescription": "pork, Vegetable, kochchi.",
+          "description": "Pork dolpin kottu prepared with vegetables, kochchi chillies, and chopped roti."
+        },
+        {
+          "id": "beef-dolpin-kottu",
+          "name": "Beef Dolpin Kottu",
+          "image": "/images/menu/kottu/beef-dolpin-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1490
+            }
+          ],
+          "shortDescription": "beef, Vegetable, kochchi.",
+          "description": "Beef dolpin kottu cooked with vegetables, kochchi chillies, and chopped godamba roti."
+        },
+        {
+          "id": "seafood-dolpin-kottu",
+          "name": "Seafood Dolpin Kottu",
+          "image": "/images/menu/kottu/seafood-dolpin-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1490
+            }
+          ],
+          "shortDescription": "seafood, Vegetable, kochchi.",
+          "description": "Seafood dolpin kottu prepared with vegetables, kochchi chillies, and chopped roti."
+        },
+        {
+          "id": "mix-dolpin-kottu",
+          "name": "Mix Dolpin Kottu",
+          "image": "/images/menu/kottu/mix-dolpin-kottu.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1990
+            }
+          ],
+          "shortDescription": "mix meat, Vegetable, kochchi.",
+          "description": "Mix meat dolpin kottu cooked with vegetables, kochchi chillies, and chopped godamba roti."
         }
       ]
     },
     {
-      "id": "noodles",
-      "name": "Noodles",
+      "id": "nasi-goreng",
+      "name": "Nasi Goreng",
       "foods": [
         {
-          "id": "chicken-noodles",
-          "name": "Chicken Noodles",
-          "price": 1000,
-          "image": "/images/menu/chicken-noodles.jpg",
-          "shortDescription": "Stir-fried noodles with chicken.",
-          "description": "Egg noodles tossed with chicken, vegetables, and a savory sauce. A quick and tasty meal."
+          "id": "chicken-nasigoreng",
+          "name": "Chicken Nasigoreng",
+          "image": "/images/menu/nasi-goreng/chicken-nasigoreng.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1490
+            }
+          ],
+          "shortDescription": "Fried Egg, Mango Chutney",
+          "description": "Indonesian-style nasi goreng prepared with chicken, served with fried egg and mango chutney."
         },
         {
-          "id": "Normal-noodles",
-          "name": "Normal Noodles",
-          "price": 800,
-          "image": "/images/menu/normal-noodles.png",
-          "shortDescription": "Stir-fried noodles with chicken.",
-          "description": "Normal noodles tossed with chicken, vegetables, and a savory sauce. A quick and tasty meal."
+          "id": "seafood-nasigoreng",
+          "name": "Seafood Nasigoreng",
+          "image": "/images/menu/nasi-goreng/seafood-nasigoreng.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1790
+            }
+          ],
+          "shortDescription": "Fried Egg, Mango Chutney",
+          "description": "Nasi goreng cooked with mixed seafood, served with fried egg and mango chutney."
+        }
+      ]
+    },
+    {
+      "id": "bytes",
+      "name": "Bytes",
+      "foods": [
+        {
+          "id": "devilled-chicken",
+          "name": "Devilled Chicken",
+          "image": "/images/menu/bytes/devilled-chicken.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1290
+            }
+          ],
+          "shortDescription": "",
+          "description": "Spicy devilled chicken cooked with onions, capsicum, and signature devilled sauce."
         },
         {
-          "id": "seafood-noodles",
-          "name": "Seafood Noodles",
-          "price": 1400,
-          "image": "/images/menu/seafood-noodles.jpg",
-          "shortDescription": "Mixed seafood and noodles.",
-          "description": "A delicious combination of prawns, cuttlefish, and fish stir-fried with noodles and spices."
+          "id": "devilled-pork",
+          "name": "Devilled Pork",
+          "image": "/images/menu/bytes/devilled-pork.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1550
+            }
+          ],
+          "shortDescription": "",
+          "description": "Devilled pork prepared with onions, capsicum, and spicy devilled sauce."
         },
         {
-          "id": "vegetable-noodles",
-          "name": "Vegetable Noodles",
-          "price": 850,
-          "image": "/images/menu/vegetable-noodles.jpg",
-          "shortDescription": "Noodles with fresh vegetables.",
-          "description": "Egg noodles cooked with a variety of fresh vegetables and a light soy sauce."
+          "id": "devilled-prawns",
+          "name": "Devilled Prawns",
+          "image": "/images/menu/bytes/devilled-prawns.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1390
+            }
+          ],
+          "shortDescription": "",
+          "description": "Juicy prawns cooked in spicy devilled sauce with onions and capsicum."
         },
         {
-          "id": "beef-noodles",
-          "name": "Beef Noodles",
-          "price": 1300,
-          "image": "/images/menu/beef-noodles.jpg",
-          "shortDescription": "Beef strips with spicy noodles.",
-          "description": "Tender beef strips stir-fried with noodles, vegetables, and a spicy sauce."
+          "id": "fried-chicken",
+          "name": "Fried Chicken",
+          "image": "/images/menu/bytes/fried-chicken.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1290
+            }
+          ],
+          "shortDescription": "",
+          "description": "Crispy fried chicken pieces served hot and golden."
+        },
+        {
+          "id": "fried-pork",
+          "name": "Fried Pork",
+          "image": "/images/menu/bytes/fried-pork.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1550
+            }
+          ],
+          "shortDescription": "",
+          "description": "Deep-fried pork pieces seasoned and fried until crispy."
         }
       ]
     },
@@ -129,34 +731,467 @@
         {
           "id": "chicken-burger",
           "name": "Chicken Burger",
-          "price": 900,
-          "image": "/images/menu/chicken-burger.jpg",
-          "shortDescription": "Crispy chicken patty burger.",
-          "description": "A golden-fried chicken patty with lettuce, tomato, and mayo in a soft bun."
+          "image": "/images/menu/burgers/chicken-burger.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1190
+            }
+          ],
+          "shortDescription": "Chicken patty, fresh vegetables, fried egg, slice cheese Served with french fries tomato sauce coleslaw",
+          "description": "Chicken patty burger served with fresh vegetables, fried egg, slice cheese, french fries, tomato sauce, and coleslaw."
+        },
+        {
+          "id": "pork-burger",
+          "name": "Pork Burger",
+          "image": "/images/menu/burgers/pork-burger.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1390
+            }
+          ],
+          "shortDescription": "Pork patty, fresh vegetables, fried egg, slice cheese Served with french fries tomato sauce coleslaw",
+          "description": "Pork patty burger served with fresh vegetables, fried egg, slice cheese, french fries, tomato sauce, and coleslaw."
         },
         {
           "id": "beef-burger",
           "name": "Beef Burger",
-          "price": 1000,
-          "image": "/images/menu/beef-burger.jpg",
-          "shortDescription": "Juicy beef patty with cheese.",
-          "description": "A thick beef patty, cheddar cheese, onions, and house sauce in a toasted bun."
+          "image": "/images/menu/burgers/beef-burger.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1490
+            }
+          ],
+          "shortDescription": "Beef patty, fresh vegetables, fried egg, slice cheese Served with french fries tomato sauce coleslaw",
+          "description": "Beef patty burger served with fresh vegetables, fried egg, slice cheese, french fries, tomato sauce, and coleslaw."
         },
         {
-          "id": "veggie-burger",
-          "name": "Veggie Burger",
-          "price": 800,
-          "image": "/images/menu/veggie-burger.jpg",
-          "shortDescription": "Grilled veggie patty burger.",
-          "description": "A wholesome burger with a grilled vegetable patty, lettuce, and tangy sauce."
+          "id": "chicken-double-burger",
+          "name": "Chicken Double Burger",
+          "image": "/images/menu/burgers/chicken-double-burger.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1790
+            }
+          ],
+          "shortDescription": "Chicken patty (double), fresh vegetables, fried egg, slice cheese Served with french fries tomato sauce coleslaw",
+          "description": "Double chicken patty burger served with fresh vegetables, fried egg, slice cheese, french fries, tomato sauce, and coleslaw."
         },
         {
-          "id": "fish-burger",
-          "name": "Fish Burger",
-          "price": 950,
-          "image": "/images/menu/fish-burger.jpg",
-          "shortDescription": "Crispy fish fillet burger.",
-          "description": "A crunchy fish fillet, tartar sauce, and fresh greens in a sesame bun."
+          "id": "beef-double-burger",
+          "name": "Beef Double Burger",
+          "image": "/images/menu/burgers/beef-double-burger.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 2090
+            }
+          ],
+          "shortDescription": "Beef patty (double), fresh vegetables, fried egg, slice cheese Served with french fries tomato sauce coleslaw",
+          "description": "Double beef patty burger served with fresh vegetables, fried egg, slice cheese, french fries, tomato sauce, and coleslaw."
+        },
+        {
+          "id": "tower-burger-4-pax",
+          "name": "Tower Burger (4 Pax)",
+          "image": "/images/menu/burgers/tower-burger-4-pax.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 2290
+            }
+          ],
+          "shortDescription": "Crispy Chicken patty (double), Chicken patty (double) French fries, slice cheese, fresh vegetables, after onions served with tomato sauce",
+          "description": "Large tower burger with double crispy chicken patties and chicken patties, served with french fries, cheese, vegetables, onions, and tomato sauce."
+        },
+        {
+          "id": "crispy-chicken-burger",
+          "name": "Crispy Chicken Burger",
+          "image": "/images/menu/burgers/crispy-chicken-burger.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1490
+            }
+          ],
+          "shortDescription": "Vegetables, lettus, crispy chicken, tomato sauce and cheese slice",
+          "description": "Crispy chicken burger served with lettuce, vegetables, tomato sauce, and cheese slice."
+        },
+        {
+          "id": "special-lovers-burger",
+          "name": "Special Lovers Burger",
+          "image": "/images/menu/burgers/special-lovers-burger.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 3190
+            }
+          ],
+          "shortDescription": "Vegetables, lettus, chicken patty, fried egg, pork bacon, sweet mayonis sourse and cashew sourse, french fries.",
+          "description": "Loaded lovers burger with chicken patty, fried egg, pork bacon, vegetables, sweet mayonnaise sauce, cashew sauce, and french fries."
+        },
+        {
+          "id": "pasti-special-burger-mix",
+          "name": "Pasti Special Burger (mix)",
+          "image": "/images/menu/burgers/pasti-special-burger-mix.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 3990
+            }
+          ],
+          "shortDescription": "Crispy chicken, grill pork, fried egg, chicken patty, lettus, onion, tomato source, sweet mayo souce, cashew souce.",
+          "description": "Pasti special mixed burger with crispy chicken, grilled pork, chicken patty, fried egg, lettuce, onion, tomato sauce, sweet mayo sauce, and cashew sauce."
+        }
+      ]
+    },
+    {
+      "id": "submarine",
+      "name": "Submarine",
+      "foods": [
+        {
+          "id": "chicken-submarine",
+          "name": "Chicken Submarine",
+          "image": "/images/menu/submarine/chicken-submarine.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1290
+            }
+          ],
+          "shortDescription": "juicy devilled chicken, lattis, slice cheese, served with french fries and tomato sauce.",
+          "description": "Chicken submarine filled with juicy devilled chicken, lettuce, slice cheese, served with french fries and tomato sauce."
+        },
+        {
+          "id": "pork-submarine",
+          "name": "Pork Submarine",
+          "image": "/images/menu/submarine/pork-submarine.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1390
+            }
+          ],
+          "shortDescription": "juicy devilled pork, lattis, slice cheese, served with french fries and tomato sauce.",
+          "description": "Pork submarine stuffed with juicy devilled pork, lettuce, slice cheese, served with french fries and tomato sauce."
+        },
+        {
+          "id": "beef-submarine",
+          "name": "Beef Submarine",
+          "image": "/images/menu/submarine/beef-submarine.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1590
+            }
+          ],
+          "shortDescription": "juicy devilled beef, lattis, slice cheese, served with french fries and tomato sauce.",
+          "description": "Beef submarine prepared with juicy devilled beef, lettuce, slice cheese, served with french fries and tomato sauce."
+        },
+        {
+          "id": "cuttlefish-submarine",
+          "name": "Cuttlefish Submarine",
+          "image": "/images/menu/submarine/cuttlefish-submarine.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1590
+            }
+          ],
+          "shortDescription": "juicy devilled cuttlefish, lattis, slice cheese, served with french fries and tomato sauce.",
+          "description": "Cuttlefish submarine filled with juicy devilled cuttlefish, lettuce, slice cheese, served with french fries and tomato sauce."
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Pasta",
+      "foods": [
+        {
+          "id": "pasta-napolitana",
+          "name": "Pasta Napolitana",
+          "image": "/images/menu/pasta/pasta-napolitana.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 950
+            }
+          ],
+          "shortDescription": "Parmesan cheese topped, concasse, pasta & herbs",
+          "description": "Classic pasta napolitana topped with parmesan cheese, tomato concasse, pasta, and herbs."
+        },
+        {
+          "id": "spaghetti-pasta",
+          "name": "Spaghetti Pasta",
+          "image": "/images/menu/pasta/spaghetti-pasta.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1100
+            }
+          ],
+          "shortDescription": "topped parmesan cheese, cream souse, bacon, mushroom, onions, garlic and herbs.",
+          "description": "Spaghetti pasta prepared with cream sauce, bacon, mushrooms, onions, garlic, herbs, and topped with parmesan cheese."
+        },
+        {
+          "id": "cheesy-cream-pasta",
+          "name": "Cheesy Cream Pasta",
+          "image": "/images/menu/pasta/cheesy-cream-pasta.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1390
+            }
+          ],
+          "shortDescription": "topped parmesan cheese and cream souse",
+          "description": "Creamy pasta topped with parmesan cheese and rich cream sauce."
+        }
+      ]
+    },
+    {
+      "id": "rice-and-curry",
+      "name": "Rice & Curry",
+      "foods": [
+        {
+          "id": "vegetable-rice-and-curry-04-currys",
+          "name": "Vegetable Rice & Curry (04 Currys)",
+          "image": "/images/menu/rice-and-curry/vegetable-rice-and-curry-04-currys.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 790
+            }
+          ],
+          "shortDescription": "",
+          "description": "Steamed rice served with four vegetable curries."
+        },
+        {
+          "id": "chicken-rice-and-curry",
+          "name": "Chicken Rice & Curry",
+          "image": "/images/menu/rice-and-curry/chicken-rice-and-curry.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 990
+            }
+          ],
+          "shortDescription": "",
+          "description": "Steamed rice served with chicken curry and three curries."
+        },
+        {
+          "id": "fish-rice-and-curry",
+          "name": "Fish Rice & Curry",
+          "image": "/images/menu/rice-and-curry/fish-rice-and-curry.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 990
+            }
+          ],
+          "shortDescription": "",
+          "description": "Steamed rice served with fish curry and three curries."
+        },
+        {
+          "id": "seafood-rice-and-curry",
+          "name": "Seafood Rice & Curry",
+          "image": "/images/menu/rice-and-curry/seafood-rice-and-curry.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1190
+            }
+          ],
+          "shortDescription": "",
+          "description": "Steamed rice served with seafood curry and three curries."
+        },
+        {
+          "id": "mutton-rice-and-curry",
+          "name": "Mutton Rice & Curry",
+          "image": "/images/menu/rice-and-curry/mutton-rice-and-curry.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1790
+            }
+          ],
+          "shortDescription": "",
+          "description": "Steamed rice served with mutton curry and three curries."
+        }
+      ]
+    },
+    {
+      "id": "biriyani",
+      "name": "Biriyani",
+      "foods": [
+        {
+          "id": "chicken-biriyani-single",
+          "name": "Chicken Biriyani Single",
+          "image": "/images/menu/biriyani/chicken-biriyani-single.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 990
+            }
+          ],
+          "shortDescription": "Tandoori chicken full leg, boil egg, raita salad and mango chutney with gravy.",
+          "description": "Single portion chicken biriyani served with tandoori chicken full leg, boiled egg, raita salad, mango chutney, and gravy."
+        },
+        {
+          "id": "chicken-biriyani-4-pax",
+          "name": "Chicken Biriyani (4 Pax)",
+          "image": "/images/menu/biriyani/chicken-biriyani-4-pax.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 2990
+            }
+          ],
+          "shortDescription": "Tandoori chicken two legs (full), boil egg, raita salad and mango chutney, piles of pineapple and gravy.",
+          "description": "Four pax chicken biriyani served with two full tandoori chicken legs, boiled eggs, raita salad, mango chutney, pineapple, and gravy."
+        },
+        {
+          "id": "mutton-biriyani-2-pax",
+          "name": "Mutton Biriyani (2 Pax)",
+          "image": "/images/menu/biriyani/mutton-biriyani-2-pax.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 3190
+            }
+          ],
+          "shortDescription": "Mutton 150g, boil egg, raita, mango chutney and gravy.",
+          "description": "Two pax mutton biriyani served with 150g mutton, boiled eggs, raita, mango chutney, and gravy."
+        },
+        {
+          "id": "biriyani-sawan-6-pax",
+          "name": "Biriyani Sawan (6 Pax)",
+          "image": "/images/menu/biriyani/biriyani-sawan-6-pax.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 3990
+            }
+          ],
+          "shortDescription": "chicken, fried boil egg, raita salad, mango chutney and gravy.",
+          "description": "Large sawan biriyani served with chicken, fried boiled eggs, raita salad, mango chutney, and gravy."
+        }
+      ]
+    },
+    {
+      "id": "snack",
+      "name": "Snack",
+      "foods": [
+        {
+          "id": "chicken-sandwich",
+          "name": "Chicken Sandwich",
+          "image": "/images/menu/snack/chicken-sandwich.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 990
+            }
+          ],
+          "shortDescription": "Chicken paste, lattis, served with french fries with coleslaw and tomato sauce.",
+          "description": "Chicken sandwich prepared with chicken paste and lettuce, served with french fries, coleslaw, and tomato sauce."
+        },
+        {
+          "id": "fish-sandwich",
+          "name": "Fish Sandwich",
+          "image": "/images/menu/snack/fish-sandwich.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 990
+            }
+          ],
+          "shortDescription": "Fish paste, lattis, served with french fries with coleslaw and tomato sauce.",
+          "description": "Fish sandwich made with fish paste and lettuce, served with french fries, coleslaw, and tomato sauce."
+        },
+        {
+          "id": "club-sandwich",
+          "name": "Club Sandwich",
+          "image": "/images/menu/snack/club-sandwich.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1390
+            }
+          ],
+          "shortDescription": "Chicken paste, back bacon, fried egg served with vegetable, coleslaw and tomato sauce.",
+          "description": "Club sandwich layered with chicken paste, back bacon, fried egg, vegetables, served with coleslaw and tomato sauce."
+        },
+        {
+          "id": "crispy-chicken-bucket-4-pieces",
+          "name": "Crispy Chicken Bucket (4 Pieces)",
+          "image": "/images/menu/snack/crispy-chicken-bucket-4-pieces.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1790
+            }
+          ],
+          "shortDescription": "Crispy drumsticks 4 Pieces, White sauce and tomato sauce, served with french frice.",
+          "description": "Bucket of four crispy chicken drumsticks served with white sauce, tomato sauce, and french fries."
+        }
+      ]
+    },
+    {
+      "id": "shawarma",
+      "name": "Shawarma",
+      "foods": [
+        {
+          "id": "chicken-shawarma",
+          "name": "Chicken Shawarma",
+          "image": "/images/menu/shawarma/chicken-shawarma.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1090
+            }
+          ],
+          "shortDescription": "Stuffed vegetables salad, marinade grilled chicken & chesse served with french fries with tomato sauce.",
+          "description": "Chicken shawarma stuffed with vegetable salad and marinated grilled chicken, cheese, served with french fries and tomato sauce."
+        },
+        {
+          "id": "beef-shawarma",
+          "name": "Beef Shawarma",
+          "image": "/images/menu/shawarma/beef-shawarma.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1290
+            }
+          ],
+          "shortDescription": "Stuffed vegetables salad, marinade grilled beef & chesse served with french fries with tomato sauce.",
+          "description": "Beef shawarma filled with vegetable salad and marinated grilled beef, cheese, served with french fries and tomato sauce."
+        },
+        {
+          "id": "fish-shawarma",
+          "name": "Fish Shawarma",
+          "image": "/images/menu/shawarma/fish-shawarma.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1190
+            }
+          ],
+          "shortDescription": "Stuffed vegetables salad, marinade grilled fish & chesse served with french fries with tomato sauce.",
+          "description": "Fish shawarma stuffed with vegetable salad and marinated grilled fish, cheese, served with french fries and tomato sauce."
+        },
+        {
+          "id": "seafood-shawarma",
+          "name": "Seafood Shawarma",
+          "image": "/images/menu/shawarma/seafood-shawarma.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 1290
+            }
+          ],
+          "shortDescription": "Stuffed vegetables salad, marinade grilled seafood & chesse served with french fries with tomato sauce.",
+          "description": "Seafood shawarma filled with vegetable salad and marinated grilled seafood, cheese, served with french fries and tomato sauce."
         }
       ]
     },
@@ -165,36 +1200,185 @@
       "name": "Drinks",
       "foods": [
         {
-          "id": "mango-juice",
-          "name": "Mango Juice",
-          "price": 350,
-          "image": "/images/menu/mango-juice.jpg",
-          "shortDescription": "Fresh mango juice.",
-          "description": "Sweet and refreshing mango juice made from ripe local mangoes."
+          "id": "chocolate-milkshake",
+          "name": "Chocolate Milkshake",
+          "image": "/images/menu/drinks/chocolate-milkshake.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 800
+            }
+          ],
+          "shortDescription": "",
+          "description": "Creamy chocolate milkshake served chilled."
         },
         {
-          "id": "lime-soda",
-          "name": "Lime Soda",
-          "price": 300,
-          "image": "/images/menu/lime-soda.jpg",
-          "shortDescription": "Chilled lime soda.",
-          "description": "A fizzy and tangy lime soda, perfect for hot days."
+          "id": "vanila-milkshake",
+          "name": "Vanila Milkshake",
+          "image": "/images/menu/drinks/vanila-milkshake.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 800
+            }
+          ],
+          "shortDescription": "",
+          "description": "Classic vanilla milkshake served chilled."
         },
         {
-          "id": "faluda",
-          "name": "Faluda",
-          "price": 500,
-          "image": "/images/menu/faluda.jpg",
-          "shortDescription": "Classic Sri Lankan faluda.",
-          "description": "A sweet, milky drink with rose syrup, ice cream, and basil seeds."
+          "id": "strawberry-milkshake",
+          "name": "Strawberry Milkshake",
+          "image": "/images/menu/drinks/strawberry-milkshake.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 800
+            }
+          ],
+          "shortDescription": "",
+          "description": "Fresh strawberry flavored milkshake served cold."
         },
         {
-          "id": "iced-coffee",
-          "name": "Iced Coffee",
-          "price": 400,
-          "image": "/images/menu/iced-coffee.jpg",
-          "shortDescription": "Chilled coffee with milk.",
-          "description": "Rich coffee served cold with milk and a hint of sweetness."
+          "id": "bubble-tea",
+          "name": "Bubble Tea",
+          "image": "/images/menu/drinks/bubble-tea.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 950
+            }
+          ],
+          "shortDescription": "(Vanilla, Orange, Chocolate, Strawberry)",
+          "description": "Bubble tea available in vanilla, orange, chocolate, and strawberry flavors."
+        }
+      ]
+    },
+    {
+      "id": "soup",
+      "name": "Soup",
+      "foods": [
+        {
+          "id": "vegi-soup",
+          "name": "Vegi Soup",
+          "image": "/images/menu/soup/vegi-soup.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 490
+            }
+          ],
+          "shortDescription": "Served with roast bread",
+          "description": "Vegetable soup served hot with roast bread."
+        },
+        {
+          "id": "cream-of-chicken-soup",
+          "name": "Cream Of Chicken Soup",
+          "image": "/images/menu/soup/cream-of-chicken-soup.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 790
+            }
+          ],
+          "shortDescription": "Served with roast bread",
+          "description": "Creamy chicken soup served warm with roast bread."
+        },
+        {
+          "id": "fish-soup",
+          "name": "Fish Soup",
+          "image": "/images/menu/soup/fish-soup.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 590
+            }
+          ],
+          "shortDescription": "Served with roast bread",
+          "description": "Fish soup served hot with roast bread."
+        },
+        {
+          "id": "sea-food-soup",
+          "name": "Sea Food Soup",
+          "image": "/images/menu/soup/sea-food-soup.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 790
+            }
+          ],
+          "shortDescription": "Served with roast bread",
+          "description": "Sea food soup served hot with roast bread."
+        },
+        {
+          "id": "tom-yom-soup",
+          "name": "Tom Yom Soup (Seafood Spicy)",
+          "image": "/images/menu/soup/tom-yom-soup.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 990
+            }
+          ],
+          "shortDescription": "Served with roast bread",
+          "description": "Spicy seafood tom yom soup served hot with roast bread."
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "name": "Dessert",
+      "foods": [
+        {
+          "id": "watalappan",
+          "name": "Watalappan",
+          "image": "/images/menu/dessert/watalappan.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 300
+            }
+          ],
+          "shortDescription": "",
+          "description": "Traditional Sri Lankan dessert made with coconut milk and jaggery."
+        },
+        {
+          "id": "brownies",
+          "name": "Brownies",
+          "image": "/images/menu/dessert/brownies.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 550
+            }
+          ],
+          "shortDescription": "",
+          "description": "Rich chocolate brownies served soft and moist."
+        },
+        {
+          "id": "bread-pudding",
+          "name": "Bread Pudding",
+          "image": "/images/menu/dessert/bread-pudding.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 300
+            }
+          ],
+          "shortDescription": "",
+          "description": "Classic bread pudding baked with milk and eggs."
+        },
+        {
+          "id": "creme-caramel",
+          "name": "Creme Caramel",
+          "image": "/images/menu/dessert/creme-caramel.jpg",
+          "prices": [
+            {
+              "label": "Regular",
+              "value": 300
+            }
+          ],
+          "shortDescription": "",
+          "description": "Smooth caramel custard dessert topped with caramel sauce."
         }
       ]
     }

@@ -1,15 +1,40 @@
 import React from "react";
 import "../App.css";
 
-const FoodCard = ({ food, onClick }) => (
-  <div className="food-card" onClick={onClick} tabIndex={0} role="button">
-    <img src={food.image} alt={food.name} className="food-card-img" />
-    <div className="food-card-body">
-      <h3 className="food-card-title">{food.name}</h3>
-      <p className="food-card-desc">{food.shortDescription}</p>
-      <div className="food-card-price">LKR {food.price}</div>
+const FoodCard = ({ food, variant = "list", onClick }) => {
+  const mainPrice = food.prices?.[0]; // Medium or Regular
+
+  return (
+    <div
+      className="food-card"
+      onClick={onClick}
+      tabIndex={0}
+      role="button"
+    >
+      <img
+        src={food.image}
+        alt={food.name}
+        className="food-card-img"
+      />
+
+      <div className="food-card-body">
+        <h3 className="food-card-title">{food.name}</h3>
+        <p className="food-card-desc">{food.shortDescription}</p>
+
+        {/* ✅ LIST / SEARCH VIEW */}
+        {variant === "list" && mainPrice && (
+          <div className="food-card-price">
+            LKR {mainPrice.value}
+            {food.prices.length > 1 && (
+              <span className="from-text">
+                {" "} ( {mainPrice.label} )
+              </span>
+            )}
+          </div>
+        )}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default FoodCard;
