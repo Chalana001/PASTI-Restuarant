@@ -2,7 +2,9 @@ import React from "react";
 import { useEffect, useState } from "react";
 import HeroSection from "../components/HeroSection";
 import "../App.css";
+
 import InfoSection from "../components/InfoSection";
+import GoogleReviews from "../components/GoogleReviews";
 
 
 const HomePage = ({ onViewMenu }) => {
@@ -31,6 +33,8 @@ const HomePage = ({ onViewMenu }) => {
       ))}
       
 
+
+      <GoogleReviews />
     </div>
   );
 };

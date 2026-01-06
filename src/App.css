@@ -1,3 +1,24 @@
+/* Google Reviews Section */
+.google-reviews {
+  margin: 3rem auto 2rem auto;
+  max-width: 700px;
+  background: #181818;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.10);
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+.reviews-title {
+  color: var(--color-primary);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.google-reviews-embed iframe {
+  width: 100%;
+  min-height: 350px;
+  border-radius: 16px;
+  border: none;
+}
 @media (max-width: 600px) {
   .food-card {
     max-width: 340px;
