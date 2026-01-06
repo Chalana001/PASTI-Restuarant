@@ -1,11 +1,10 @@
 import React from "react";
-// import {
-//   HashRouter as Router,
-//   Routes,
-//   Route,
-//   useNavigate,
-// } from "react-router-dom";
-import { Router } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useNavigate,
+} from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import MenuPage from "./pages/MenuPage";
@@ -16,7 +15,7 @@ import Navbar from "./components/Navbar";
 
 import "./App.css";
 
-/* ---------------- MAIN APP ROUTES ---------------- */
+/* ---------------- ROUTES ---------------- */
 
 function AppRoutes() {
   const navigate = useNavigate();
@@ -34,7 +33,7 @@ function AppRoutes() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
 
-        {/* 🔒 SAFETY FALLBACK */}
+        {/* Fallback */}
         <Route path="*" element={<HomePage />} />
       </Routes>
 
@@ -49,9 +48,9 @@ function AppRoutes() {
 
 export default function AppWithRouter() {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <AppRoutes />
-    </Router>
+    </BrowserRouter>
   );
 }
