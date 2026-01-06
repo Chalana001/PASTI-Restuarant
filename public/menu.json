@@ -7,7 +7,7 @@
         {
           "id": "chicken-naimiris-pizza",
           "name": "Chicken Naimiris Pizza",
-          "image": "",
+          "image": "/images/menu/pasti-special-pizza/chicken-naimiris-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -24,7 +24,7 @@
         {
           "id": "prawns-naimiris-pizza",
           "name": "Prawns Naimiris Pizza",
-          "image": "",
+          "image": "/images/menu/pasti-special-pizza/prawns-naimiris-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -41,7 +41,7 @@
         {
           "id": "pork-naimiris-pizza",
           "name": "Pork Naimiris Pizza",
-          "image": "",
+          "image": "/images/menu/pasti-special-pizza/pork-naimiris-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -58,7 +58,7 @@
         {
           "id": "hot-butter-vegetable-naimiris-pizza",
           "name": "Hot Butter Vegetable Naimiris Pizza",
-          "image": "",
+          "image": "/images/menu/pasti-special-pizza/hot-butter-vegetable-naimiris-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -75,7 +75,7 @@
         {
           "id": "seafood-naimiris-pizza",
           "name": "Seafood Naimiris Pizza",
-          "image": "",
+          "image": "/images/menu/pasti-special-pizza/seafood-naimiris-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -98,7 +98,7 @@
         {
           "id": "margherita-pizza",
           "name": "Margherita Pizza",
-          "image": "",
+          "image": "/images/menu/regular-pizza/margherita-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -115,7 +115,7 @@
         {
           "id": "chicken-pepperoni-pizza",
           "name": "Chicken Pepperoni Pizza",
-          "image": "",
+          "image": "/images/menu/regular-pizza/chicken-pepperoni-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -132,7 +132,7 @@
         {
           "id": "beef-pepperoni-pizza",
           "name": "Beef Pepperoni Pizza",
-          "image": "",
+          "image": "/images/menu/regular-pizza/beef-pepperoni-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -149,7 +149,7 @@
         {
           "id": "chicken-pizza",
           "name": "Chicken Pizza",
-          "image": "",
+          "image": "/images/menu/regular-pizza/chicken-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -166,7 +166,7 @@
         {
           "id": "pork-pizza",
           "name": "Pork Pizza",
-          "image": "",
+          "image": "/images/menu/regular-pizza/pork-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -183,7 +183,7 @@
         {
           "id": "hot-butter-cuttlefish-pizza",
           "name": "Hot Butter Cuttlefish Pizza",
-          "image": "",
+          "image": "/images/menu/regular-pizza/hot-butter-cuttlefish-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -200,7 +200,7 @@
         {
           "id": "vegetable-pizza",
           "name": "Vegetable Pizza",
-          "image": "",
+          "image": "/images/menu/regular-pizza/vegetable-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -217,7 +217,7 @@
         {
           "id": "devilled-chicken-pizza",
           "name": "Devilled Chicken Pizza",
-          "image": "",
+          "image": "/images/menu/regular-pizza/devilled-chicken-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -234,7 +234,7 @@
         {
           "id": "hot-butter-mushroom-pizza",
           "name": "Hot Butter Mushroom Pizza",
-          "image": "",
+          "image": "/images/menu/regular-pizza/hot-butter-mushroom-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -251,7 +251,7 @@
         {
           "id": "italian-pizza",
           "name": "Italian Pizza",
-          "image": "",
+          "image": "/images/menu/regular-pizza/italian-pizza.png",
           "prices": [
             {
               "label": "Medium",
@@ -268,7 +268,7 @@
         {
           "id": "marinara-pizza",
           "name": "Marinara Pizza",
-          "image": "",
+          "image": "/images/menu/regular-pizza/marinara-pizza.png",
           "prices": [
             {
               "label": "Medium",
