@@ -7,7 +7,7 @@
         {
           "id": "chicken-naimiris-pizza",
           "name": "Chicken Naimiris Pizza",
-          "image": "/images/menu/pasti-special-pizza/chicken-naimiris-pizza.png",
+          "image": "/images/menu/pasti-special-pizza/chicken-naimiris-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -24,7 +24,7 @@
         {
           "id": "prawns-naimiris-pizza",
           "name": "Prawns Naimiris Pizza",
-          "image": "/images/menu/pasti-special-pizza/prawns-naimiris-pizza.png",
+          "image": "/images/menu/pasti-special-pizza/prawns-naimiris-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -41,7 +41,7 @@
         {
           "id": "pork-naimiris-pizza",
           "name": "Pork Naimiris Pizza",
-          "image": "/images/menu/pasti-special-pizza/pork-naimiris-pizza.png",
+          "image": "/images/menu/pasti-special-pizza/pork-naimiris-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -58,7 +58,7 @@
         {
           "id": "hot-butter-vegetable-naimiris-pizza",
           "name": "Hot Butter Vegetable Naimiris Pizza",
-          "image": "/images/menu/pasti-special-pizza/hot-butter-vegetable-naimiris-pizza.png",
+          "image": "/images/menu/pasti-special-pizza/hot-butter-vegetable-naimiris-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -75,7 +75,7 @@
         {
           "id": "seafood-naimiris-pizza",
           "name": "Seafood Naimiris Pizza",
-          "image": "/images/menu/pasti-special-pizza/seafood-naimiris-pizza.png",
+          "image": "/images/menu/pasti-special-pizza/seafood-naimiris-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -98,7 +98,7 @@
         {
           "id": "margherita-pizza",
           "name": "Margherita Pizza",
-          "image": "/images/menu/regular-pizza/margherita-pizza.png",
+          "image": "/images/menu/regular-pizza/margherita-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -115,7 +115,7 @@
         {
           "id": "chicken-pepperoni-pizza",
           "name": "Chicken Pepperoni Pizza",
-          "image": "/images/menu/regular-pizza/chicken-pepperoni-pizza.png",
+          "image": "/images/menu/regular-pizza/chicken-pepperoni-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -132,7 +132,7 @@
         {
           "id": "beef-pepperoni-pizza",
           "name": "Beef Pepperoni Pizza",
-          "image": "/images/menu/regular-pizza/beef-pepperoni-pizza.png",
+          "image": "/images/menu/regular-pizza/beef-pepperoni-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -149,7 +149,7 @@
         {
           "id": "chicken-pizza",
           "name": "Chicken Pizza",
-          "image": "/images/menu/regular-pizza/chicken-pizza.png",
+          "image": "/images/menu/regular-pizza/chicken-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -166,7 +166,7 @@
         {
           "id": "pork-pizza",
           "name": "Pork Pizza",
-          "image": "/images/menu/regular-pizza/pork-pizza.png",
+          "image": "/images/menu/regular-pizza/pork-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -183,7 +183,7 @@
         {
           "id": "hot-butter-cuttlefish-pizza",
           "name": "Hot Butter Cuttlefish Pizza",
-          "image": "/images/menu/regular-pizza/hot-butter-cuttlefish-pizza.png",
+          "image": "/images/menu/regular-pizza/hot-butter-cuttlefish-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -200,7 +200,7 @@
         {
           "id": "vegetable-pizza",
           "name": "Vegetable Pizza",
-          "image": "/images/menu/regular-pizza/vegetable-pizza.png",
+          "image": "/images/menu/regular-pizza/vegetable-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -217,7 +217,7 @@
         {
           "id": "devilled-chicken-pizza",
           "name": "Devilled Chicken Pizza",
-          "image": "/images/menu/regular-pizza/devilled-chicken-pizza.png",
+          "image": "/images/menu/regular-pizza/devilled-chicken-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -234,7 +234,7 @@
         {
           "id": "hot-butter-mushroom-pizza",
           "name": "Hot Butter Mushroom Pizza",
-          "image": "/images/menu/regular-pizza/hot-butter-mushroom-pizza.png",
+          "image": "/images/menu/regular-pizza/hot-butter-mushroom-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -251,7 +251,7 @@
         {
           "id": "italian-pizza",
           "name": "Italian Pizza",
-          "image": "/images/menu/regular-pizza/italian-pizza.png",
+          "image": "/images/menu/regular-pizza/italian-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -268,7 +268,7 @@
         {
           "id": "marinara-pizza",
           "name": "Marinara Pizza",
-          "image": "/images/menu/regular-pizza/marinara-pizza.png",
+          "image": "/images/menu/regular-pizza/marinara-pizza.webp",
           "prices": [
             {
               "label": "Medium",
@@ -291,7 +291,7 @@
         {
           "id": "egg-fried-rice",
           "name": "Egg Fried Rice",
-          "image": "/images/menu/egg-fried-rice.jpg",
+          "image": "/images/menu/fried-rice/egg-fried-rice.webp",
           "prices": [
             {
               "label": "Regular",
@@ -304,7 +304,7 @@
         {
           "id": "chicken-fried-rice",
           "name": "Chicken Fried Rice",
-          "image": "/images/menu/chicken-fried-rice.jpg",
+          "image": "/images/menu/fried-rice/chicken-fried-rice.webp",
           "prices": [
             {
               "label": "Regular",
@@ -317,7 +317,7 @@
         {
           "id": "fish-fried-rice",
           "name": "Fish Fried Rice",
-          "image": "/images/menu/fish-fried-rice.jpg",
+          "image": "/images/menu/fried-rice/fish-fried-rice.webp",
           "prices": [
             {
               "label": "Regular",
@@ -330,7 +330,7 @@
         {
           "id": "mix-fried-rice",
           "name": "Mix Fried Rice",
-          "image": "/images/menu/mix-fried-rice.jpg",
+          "image": "/images/menu/fried-rice/mix-fried-rice.webp",
           "prices": [
             {
               "label": "Regular",
@@ -343,7 +343,7 @@
         {
           "id": "chili-chicken-with-egg-rice",
           "name": "Chili Chicken With Egg Rice",
-          "image": "/images/menu/chili-chicken-with-egg-rice.jpg",
+          "image": "/images/menu/fried-rice/chili-chicken-with-egg-rice.webp",
           "prices": [
             {
               "label": "Regular",
@@ -356,7 +356,7 @@
         {
           "id": "mongolian-seafood-rice-basmathi",
           "name": "Mongolian Seafood Rice (Basmathi)",
-          "image": "/images/menu/mongolian-seafood-rice-basmathi.jpg",
+          "image": "/images/menu/fried-rice/mongolian-seafood-rice-basmathi.webp",
           "prices": [
             {
               "label": "Regular",
@@ -369,7 +369,7 @@
         {
           "id": "chilli-pork-with-egg-rice",
           "name": "Chilli Pork With Egg Rice",
-          "image": "/images/menu/chilli-pork-with-egg-rice.jpg",
+          "image": "/images/menu/fried-rice/chilli-pork-with-egg-rice.webp",
           "prices": [
             {
               "label": "Regular",
@@ -382,7 +382,7 @@
         {
           "id": "spicy-mix-rice-basmathi",
           "name": "Spicy Mix Rice (Basmathi)",
-          "image": "/images/menu/spicy-mix-rice-basmathi.jpg",
+          "image": "/images/menu/fried-rice/spicy-mix-rice-basmathi.webp",
           "prices": [
             {
               "label": "Regular",
@@ -395,7 +395,7 @@
         {
           "id": "chicken-fried-rice-sawan-5-pax",
           "name": "Chicken Fried Rice Sawan (5 Pax)",
-          "image": "/images/menu/chicken-fried-rice-sawan-5-pax.jpg",
+          "image": "/images/menu/fried-rice/chicken-fried-rice-sawan-5-pax.webp",
           "prices": [
             {
               "label": "Regular",
@@ -408,7 +408,7 @@
         {
           "id": "seafood-fried-rice-5-pax",
           "name": "Seafood Fried Rice (5 Pax)",
-          "image": "/images/menu/seafood-fried-rice-5-pax.jpg",
+          "image": "/images/menu/fried-rice/seafood-fried-rice-5-pax.webp",
           "prices": [
             {
               "label": "Regular",
@@ -427,7 +427,7 @@
         {
           "id": "vegetable-kottu",
           "name": "Vegetable Kottu",
-          "image": "/images/menu/kottu/vegetable-kottu.jpg",
+          "image": "/images/menu/kottu/vegetable-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -440,7 +440,7 @@
         {
           "id": "chicken-kottu",
           "name": "Chicken Kottu",
-          "image": "/images/menu/kottu/chicken-kottu.jpg",
+          "image": "/images/menu/kottu/chicken-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -453,7 +453,7 @@
         {
           "id": "fish-kottu",
           "name": "Fish Kottu",
-          "image": "/images/menu/kottu/fish-kottu.jpg",
+          "image": "/images/menu/kottu/fish-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -466,7 +466,7 @@
         {
           "id": "pork-kottu",
           "name": "Pork Kottu",
-          "image": "/images/menu/kottu/pork-kottu.jpg",
+          "image": "/images/menu/kottu/pork-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -479,7 +479,7 @@
         {
           "id": "beef-kottu",
           "name": "Beef Kottu",
-          "image": "/images/menu/kottu/beef-kottu.jpg",
+          "image": "/images/menu/kottu/beef-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -492,7 +492,7 @@
         {
           "id": "nai-miris-kottu-bite",
           "name": "Nai Miris Kottu Bite",
-          "image": "/images/menu/kottu/nai-miris-kottu-bite.jpg",
+          "image": "/images/menu/kottu/nai-miris-kottu-bite.webp",
           "prices": [
             {
               "label": "Regular",
@@ -505,7 +505,7 @@
         {
           "id": "chicken-cheese-kottu",
           "name": "Chicken Cheese Kottu",
-          "image": "/images/menu/kottu/chicken-cheese-kottu.jpg",
+          "image": "/images/menu/kottu/chicken-cheese-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -518,7 +518,7 @@
         {
           "id": "pork-cheese-kottu",
           "name": "Pork Cheese Kottu",
-          "image": "/images/menu/kottu/pork-cheese-kottu.jpg",
+          "image": "/images/menu/kottu/pork-cheese-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -531,7 +531,7 @@
         {
           "id": "beef-cheese-kottu",
           "name": "Beef Cheese Kottu",
-          "image": "/images/menu/kottu/beef-cheese-kottu.jpg",
+          "image": "/images/menu/kottu/beef-cheese-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -544,7 +544,7 @@
         {
           "id": "seafood-cheese-kottu",
           "name": "Seafood Cheese Kottu",
-          "image": "/images/menu/kottu/seafood-cheese-kottu.jpg",
+          "image": "/images/menu/kottu/seafood-cheese-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -557,7 +557,7 @@
         {
           "id": "chicken-dolpin-kottu",
           "name": "Chicken Dolpin Kottu",
-          "image": "/images/menu/kottu/chicken-dolpin-kottu.jpg",
+          "image": "/images/menu/kottu/chicken-dolpin-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -570,7 +570,7 @@
         {
           "id": "pork-dolpin-kottu",
           "name": "Pork Dolpin Kottu",
-          "image": "/images/menu/kottu/pork-dolpin-kottu.jpg",
+          "image": "/images/menu/kottu/pork-dolpin-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -583,7 +583,7 @@
         {
           "id": "beef-dolpin-kottu",
           "name": "Beef Dolpin Kottu",
-          "image": "/images/menu/kottu/beef-dolpin-kottu.jpg",
+          "image": "/images/menu/kottu/beef-dolpin-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -596,7 +596,7 @@
         {
           "id": "seafood-dolpin-kottu",
           "name": "Seafood Dolpin Kottu",
-          "image": "/images/menu/kottu/seafood-dolpin-kottu.jpg",
+          "image": "/images/menu/kottu/seafood-dolpin-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -609,7 +609,7 @@
         {
           "id": "mix-dolpin-kottu",
           "name": "Mix Dolpin Kottu",
-          "image": "/images/menu/kottu/mix-dolpin-kottu.jpg",
+          "image": "/images/menu/kottu/mix-dolpin-kottu.webp",
           "prices": [
             {
               "label": "Regular",
@@ -628,7 +628,7 @@
         {
           "id": "chicken-nasigoreng",
           "name": "Chicken Nasigoreng",
-          "image": "/images/menu/nasi-goreng/chicken-nasigoreng.jpg",
+          "image": "/images/menu/nasi-goreng/chicken-nasigoreng.webp",
           "prices": [
             {
               "label": "Regular",
@@ -641,7 +641,7 @@
         {
           "id": "seafood-nasigoreng",
           "name": "Seafood Nasigoreng",
-          "image": "/images/menu/nasi-goreng/seafood-nasigoreng.jpg",
+          "image": "/images/menu/nasi-goreng/seafood-nasigoreng.webp",
           "prices": [
             {
               "label": "Regular",
@@ -660,7 +660,7 @@
         {
           "id": "devilled-chicken",
           "name": "Devilled Chicken",
-          "image": "/images/menu/bytes/devilled-chicken.jpg",
+          "image": "/images/menu/bytes/devilled-chicken.webp",
           "prices": [
             {
               "label": "Regular",
@@ -673,7 +673,7 @@
         {
           "id": "devilled-pork",
           "name": "Devilled Pork",
-          "image": "/images/menu/bytes/devilled-pork.jpg",
+          "image": "/images/menu/bytes/devilled-pork.webp",
           "prices": [
             {
               "label": "Regular",
@@ -686,7 +686,7 @@
         {
           "id": "devilled-prawns",
           "name": "Devilled Prawns",
-          "image": "/images/menu/bytes/devilled-prawns.jpg",
+          "image": "/images/menu/bytes/devilled-prawns.webp",
           "prices": [
             {
               "label": "Regular",
@@ -699,7 +699,7 @@
         {
           "id": "fried-chicken",
           "name": "Fried Chicken",
-          "image": "/images/menu/bytes/fried-chicken.jpg",
+          "image": "/images/menu/bytes/fried-chicken.webp",
           "prices": [
             {
               "label": "Regular",
@@ -712,7 +712,7 @@
         {
           "id": "fried-pork",
           "name": "Fried Pork",
-          "image": "/images/menu/bytes/fried-pork.jpg",
+          "image": "/images/menu/bytes/fried-pork.webp",
           "prices": [
             {
               "label": "Regular",
@@ -731,7 +731,7 @@
         {
           "id": "chicken-burger",
           "name": "Chicken Burger",
-          "image": "/images/menu/burgers/chicken-burger.jpg",
+          "image": "/images/menu/burgers/chicken-burger.webp",
           "prices": [
             {
               "label": "Regular",
@@ -744,7 +744,7 @@
         {
           "id": "pork-burger",
           "name": "Pork Burger",
-          "image": "/images/menu/burgers/pork-burger.jpg",
+          "image": "/images/menu/burgers/pork-burger.webp",
           "prices": [
             {
               "label": "Regular",
@@ -757,7 +757,7 @@
         {
           "id": "beef-burger",
           "name": "Beef Burger",
-          "image": "/images/menu/burgers/beef-burger.jpg",
+          "image": "/images/menu/burgers/beef-burger.webp",
           "prices": [
             {
               "label": "Regular",
@@ -770,7 +770,7 @@
         {
           "id": "chicken-double-burger",
           "name": "Chicken Double Burger",
-          "image": "/images/menu/burgers/chicken-double-burger.jpg",
+          "image": "/images/menu/burgers/chicken-double-burger.webp",
           "prices": [
             {
               "label": "Regular",
@@ -783,7 +783,7 @@
         {
           "id": "beef-double-burger",
           "name": "Beef Double Burger",
-          "image": "/images/menu/burgers/beef-double-burger.jpg",
+          "image": "/images/menu/burgers/beef-double-burger.webp",
           "prices": [
             {
               "label": "Regular",
@@ -796,7 +796,7 @@
         {
           "id": "tower-burger-4-pax",
           "name": "Tower Burger (4 Pax)",
-          "image": "/images/menu/burgers/tower-burger-4-pax.jpg",
+          "image": "/images/menu/burgers/tower-burger-4-pax.webp",
           "prices": [
             {
               "label": "Regular",
@@ -809,7 +809,7 @@
         {
           "id": "crispy-chicken-burger",
           "name": "Crispy Chicken Burger",
-          "image": "/images/menu/burgers/crispy-chicken-burger.jpg",
+          "image": "/images/menu/burgers/crispy-chicken-burger.webp",
           "prices": [
             {
               "label": "Regular",
@@ -822,7 +822,7 @@
         {
           "id": "special-lovers-burger",
           "name": "Special Lovers Burger",
-          "image": "/images/menu/burgers/special-lovers-burger.jpg",
+          "image": "/images/menu/burgers/special-lovers-burger.webp",
           "prices": [
             {
               "label": "Regular",
@@ -835,7 +835,7 @@
         {
           "id": "pasti-special-burger-mix",
           "name": "Pasti Special Burger (mix)",
-          "image": "/images/menu/burgers/pasti-special-burger-mix.jpg",
+          "image": "/images/menu/burgers/pasti-special-burger-mix.webp",
           "prices": [
             {
               "label": "Regular",
@@ -854,7 +854,7 @@
         {
           "id": "chicken-submarine",
           "name": "Chicken Submarine",
-          "image": "/images/menu/submarine/chicken-submarine.jpg",
+          "image": "/images/menu/submarine/chicken-submarine.webp",
           "prices": [
             {
               "label": "Regular",
@@ -867,7 +867,7 @@
         {
           "id": "pork-submarine",
           "name": "Pork Submarine",
-          "image": "/images/menu/submarine/pork-submarine.jpg",
+          "image": "/images/menu/submarine/pork-submarine.webp",
           "prices": [
             {
               "label": "Regular",
@@ -880,7 +880,7 @@
         {
           "id": "beef-submarine",
           "name": "Beef Submarine",
-          "image": "/images/menu/submarine/beef-submarine.jpg",
+          "image": "/images/menu/submarine/beef-submarine.webp",
           "prices": [
             {
               "label": "Regular",
@@ -893,7 +893,7 @@
         {
           "id": "cuttlefish-submarine",
           "name": "Cuttlefish Submarine",
-          "image": "/images/menu/submarine/cuttlefish-submarine.jpg",
+          "image": "/images/menu/submarine/cuttlefish-submarine.webp",
           "prices": [
             {
               "label": "Regular",
@@ -912,7 +912,7 @@
         {
           "id": "pasta-napolitana",
           "name": "Pasta Napolitana",
-          "image": "/images/menu/pasta/pasta-napolitana.jpg",
+          "image": "/images/menu/pasta/pasta-napolitana.webp",
           "prices": [
             {
               "label": "Regular",
@@ -925,7 +925,7 @@
         {
           "id": "spaghetti-pasta",
           "name": "Spaghetti Pasta",
-          "image": "/images/menu/pasta/spaghetti-pasta.jpg",
+          "image": "/images/menu/pasta/spaghetti-pasta.webp",
           "prices": [
             {
               "label": "Regular",
@@ -938,7 +938,7 @@
         {
           "id": "cheesy-cream-pasta",
           "name": "Cheesy Cream Pasta",
-          "image": "/images/menu/pasta/cheesy-cream-pasta.jpg",
+          "image": "/images/menu/pasta/cheesy-cream-pasta.webp",
           "prices": [
             {
               "label": "Regular",
@@ -957,7 +957,7 @@
         {
           "id": "vegetable-rice-and-curry-04-currys",
           "name": "Vegetable Rice & Curry (04 Currys)",
-          "image": "/images/menu/rice-and-curry/vegetable-rice-and-curry-04-currys.jpg",
+          "image": "/images/menu/rice-and-curry/vegetable-rice-and-curry-04-currys.webp",
           "prices": [
             {
               "label": "Regular",
@@ -970,7 +970,7 @@
         {
           "id": "chicken-rice-and-curry",
           "name": "Chicken Rice & Curry",
-          "image": "/images/menu/rice-and-curry/chicken-rice-and-curry.jpg",
+          "image": "/images/menu/rice-and-curry/chicken-rice-and-curry.webp",
           "prices": [
             {
               "label": "Regular",
@@ -983,7 +983,7 @@
         {
           "id": "fish-rice-and-curry",
           "name": "Fish Rice & Curry",
-          "image": "/images/menu/rice-and-curry/fish-rice-and-curry.jpg",
+          "image": "/images/menu/rice-and-curry/fish-rice-and-curry.webp",
           "prices": [
             {
               "label": "Regular",
@@ -996,7 +996,7 @@
         {
           "id": "seafood-rice-and-curry",
           "name": "Seafood Rice & Curry",
-          "image": "/images/menu/rice-and-curry/seafood-rice-and-curry.jpg",
+          "image": "/images/menu/rice-and-curry/seafood-rice-and-curry.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1009,7 +1009,7 @@
         {
           "id": "mutton-rice-and-curry",
           "name": "Mutton Rice & Curry",
-          "image": "/images/menu/rice-and-curry/mutton-rice-and-curry.jpg",
+          "image": "/images/menu/rice-and-curry/mutton-rice-and-curry.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1028,7 +1028,7 @@
         {
           "id": "chicken-biriyani-single",
           "name": "Chicken Biriyani Single",
-          "image": "/images/menu/biriyani/chicken-biriyani-single.jpg",
+          "image": "/images/menu/biriyani/chicken-biriyani-single.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1041,7 +1041,7 @@
         {
           "id": "chicken-biriyani-4-pax",
           "name": "Chicken Biriyani (4 Pax)",
-          "image": "/images/menu/biriyani/chicken-biriyani-4-pax.jpg",
+          "image": "/images/menu/biriyani/chicken-biriyani-4-pax.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1054,7 +1054,7 @@
         {
           "id": "mutton-biriyani-2-pax",
           "name": "Mutton Biriyani (2 Pax)",
-          "image": "/images/menu/biriyani/mutton-biriyani-2-pax.jpg",
+          "image": "/images/menu/biriyani/mutton-biriyani-2-pax.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1067,7 +1067,7 @@
         {
           "id": "biriyani-sawan-6-pax",
           "name": "Biriyani Sawan (6 Pax)",
-          "image": "/images/menu/biriyani/biriyani-sawan-6-pax.jpg",
+          "image": "/images/menu/biriyani/biriyani-sawan-6-pax.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1086,7 +1086,7 @@
         {
           "id": "chicken-sandwich",
           "name": "Chicken Sandwich",
-          "image": "/images/menu/snack/chicken-sandwich.jpg",
+          "image": "/images/menu/snack/chicken-sandwich.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1099,7 +1099,7 @@
         {
           "id": "fish-sandwich",
           "name": "Fish Sandwich",
-          "image": "/images/menu/snack/fish-sandwich.jpg",
+          "image": "/images/menu/snack/fish-sandwich.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1112,7 +1112,7 @@
         {
           "id": "club-sandwich",
           "name": "Club Sandwich",
-          "image": "/images/menu/snack/club-sandwich.jpg",
+          "image": "/images/menu/snack/club-sandwich.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1125,7 +1125,7 @@
         {
           "id": "crispy-chicken-bucket-4-pieces",
           "name": "Crispy Chicken Bucket (4 Pieces)",
-          "image": "/images/menu/snack/crispy-chicken-bucket-4-pieces.jpg",
+          "image": "/images/menu/snack/crispy-chicken-bucket-4-pieces.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1144,7 +1144,7 @@
         {
           "id": "chicken-shawarma",
           "name": "Chicken Shawarma",
-          "image": "/images/menu/shawarma/chicken-shawarma.jpg",
+          "image": "/images/menu/shawarma/chicken-shawarma.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1157,7 +1157,7 @@
         {
           "id": "beef-shawarma",
           "name": "Beef Shawarma",
-          "image": "/images/menu/shawarma/beef-shawarma.jpg",
+          "image": "/images/menu/shawarma/beef-shawarma.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1170,7 +1170,7 @@
         {
           "id": "fish-shawarma",
           "name": "Fish Shawarma",
-          "image": "/images/menu/shawarma/fish-shawarma.jpg",
+          "image": "/images/menu/shawarma/fish-shawarma.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1183,7 +1183,7 @@
         {
           "id": "seafood-shawarma",
           "name": "Seafood Shawarma",
-          "image": "/images/menu/shawarma/seafood-shawarma.jpg",
+          "image": "/images/menu/shawarma/seafood-shawarma.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1202,7 +1202,7 @@
         {
           "id": "chocolate-milkshake",
           "name": "Chocolate Milkshake",
-          "image": "/images/menu/drinks/chocolate-milkshake.jpg",
+          "image": "/images/menu/drinks/chocolate-milkshake.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1215,7 +1215,7 @@
         {
           "id": "vanila-milkshake",
           "name": "Vanila Milkshake",
-          "image": "/images/menu/drinks/vanila-milkshake.jpg",
+          "image": "/images/menu/drinks/vanila-milkshake.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1228,7 +1228,7 @@
         {
           "id": "strawberry-milkshake",
           "name": "Strawberry Milkshake",
-          "image": "/images/menu/drinks/strawberry-milkshake.jpg",
+          "image": "/images/menu/drinks/strawberry-milkshake.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1241,7 +1241,7 @@
         {
           "id": "bubble-tea",
           "name": "Bubble Tea",
-          "image": "/images/menu/drinks/bubble-tea.jpg",
+          "image": "/images/menu/drinks/bubble-tea.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1260,7 +1260,7 @@
         {
           "id": "vegi-soup",
           "name": "Vegi Soup",
-          "image": "/images/menu/soup/vegi-soup.jpg",
+          "image": "/images/menu/soup/vegi-soup.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1273,7 +1273,7 @@
         {
           "id": "cream-of-chicken-soup",
           "name": "Cream Of Chicken Soup",
-          "image": "/images/menu/soup/cream-of-chicken-soup.jpg",
+          "image": "/images/menu/soup/cream-of-chicken-soup.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1286,7 +1286,7 @@
         {
           "id": "fish-soup",
           "name": "Fish Soup",
-          "image": "/images/menu/soup/fish-soup.jpg",
+          "image": "/images/menu/soup/fish-soup.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1299,7 +1299,7 @@
         {
           "id": "sea-food-soup",
           "name": "Sea Food Soup",
-          "image": "/images/menu/soup/sea-food-soup.jpg",
+          "image": "/images/menu/soup/sea-food-soup.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1312,7 +1312,7 @@
         {
           "id": "tom-yom-soup",
           "name": "Tom Yom Soup (Seafood Spicy)",
-          "image": "/images/menu/soup/tom-yom-soup.jpg",
+          "image": "/images/menu/soup/tom-yom-soup.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1331,7 +1331,7 @@
         {
           "id": "watalappan",
           "name": "Watalappan",
-          "image": "/images/menu/dessert/watalappan.jpg",
+          "image": "/images/menu/dessert/watalappan.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1344,7 +1344,7 @@
         {
           "id": "brownies",
           "name": "Brownies",
-          "image": "/images/menu/dessert/brownies.jpg",
+          "image": "/images/menu/dessert/brownies.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1357,7 +1357,7 @@
         {
           "id": "bread-pudding",
           "name": "Bread Pudding",
-          "image": "/images/menu/dessert/bread-pudding.jpg",
+          "image": "/images/menu/dessert/bread-pudding.webp",
           "prices": [
             {
               "label": "Regular",
@@ -1370,7 +1370,7 @@
         {
           "id": "creme-caramel",
           "name": "Creme Caramel",
-          "image": "/images/menu/dessert/creme-caramel.jpg",
+          "image": "/images/menu/dessert/creme-caramel.webp",
           "prices": [
             {
               "label": "Regular",
