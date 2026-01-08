@@ -381,6 +381,39 @@ body, html, #root, .app-root {
     font-size: 14px;
   }
 }
+/* ===== Combo Packages Section ===== */
+
+.special-deals {
+  padding: 40px 20px;
+  background: #0f0f0f;
+}
+
+.special-deals-row {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+
+  overflow-x: auto;        /* 🔥 horizontal scroll */
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+
+  padding-bottom: 15px;
+}
+
+/* scrollbar hide (clean look) */
+.special-deals-row::-webkit-scrollbar {
+  height: 6px;
+}
+
+.special-deals-row::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+}
+
+/* IMPORTANT: prevent cards from shrinking */
+.special-deals-row .food-card {
+  flex: 0 0 280px;   /* 👈 card width (adjust if needed) */
+}
 
 
 /* ==============================
@@ -613,7 +646,8 @@ body, html, #root, .app-root {
 }
 .food-card-img {
   width: 100%;
-  height: 260px;
+  aspect-ratio: 1 / 1;
+  /* height: 260px; */
   object-fit: cover;
   background: var(--color-bg);
 }

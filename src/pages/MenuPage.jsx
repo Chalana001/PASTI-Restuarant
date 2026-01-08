@@ -5,6 +5,7 @@ import FoodCard from "../components/FoodCard";
 import "../App.css";
 import { useNavigate } from "react-router-dom";
 
+
 const fetchMenu = async () => {
   const res = await fetch("/menu.json");
   return res.json();
@@ -48,7 +49,6 @@ const MenuPage = () => {
       )
     }))
     .filter(cat => cat.foods.length > 0);
-
   return (
     <main className="menu-page">
       <h2 className="menu-title">Our Foods</h2>

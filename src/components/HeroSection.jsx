@@ -9,7 +9,7 @@ const heroImages = [
   "/images/hero/hero5.jpg"
 ];
 
-const tagline = "This is your own place";
+const tagline = "Comfortable Dining for Locals & Travelers";
 
 const HeroSection = ({ onViewMenu }) => {
   const [current, setCurrent] = useState(0);
