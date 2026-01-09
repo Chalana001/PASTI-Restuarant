@@ -70,11 +70,6 @@ const HomePage = ({ onViewMenu }) => {
         </section>
       )}
 
-      {/* <div className="mini-highlights">
-  <div className="mini-item">🍽️ Comfortable Dining</div>
-  <div className="mini-item">🏡 Cozy Interior</div>
-  <div className="mini-item">❤️ Loved by Locals</div>
-</div> */}
       <div className="mini-highlights">
         <button className="mini-item" onClick={() => scrollToSection("1")}>
           🍽️ Comfortable Dining

@@ -117,27 +117,29 @@
 /* ✅ tablet */
 @media (max-width: 900px) {
 
-    .mini-highlights {
+  .mini-highlights {
     grid-template-columns: repeat(2, 1fr);
   }
 
-    .special-deals-row{
+  .special-deals-row {
     padding: 16px;
     gap: 12px;
   }
 
-  .special-deals-row .food-card{
+  .special-deals-row .food-card {
     flex: 0 0 calc(70% - 6px);
     max-width: calc(70% - 6px);
   }
+
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
- /* mobile */
+
+/* mobile */
 @media (max-width: 480px) {
 
-    .mini-highlights {
+  .mini-highlights {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
@@ -146,15 +148,18 @@
     height: 44px;
     font-size: 12px;
   }
-    .special-deals-row{
+
+  .special-deals-row {
     padding: 16px;
     gap: 12px;
   }
 
-  .special-deals-row .food-card{
-    flex: 0 0 calc(50% - 6px);  /* 🔥 2 cards in screen */
+  .special-deals-row .food-card {
+    flex: 0 0 calc(50% - 6px);
+    /* 🔥 2 cards in screen */
     max-width: calc(50% - 6px);
   }
+
   .services {
     padding: 45px 16px;
   }
