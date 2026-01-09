@@ -2,9 +2,9 @@
   "sections": [
     {
       "id": 1,
-      "title": "Fresh Local Food, Made Daily",
-      "text": "At PASTI, we cook simple and fresh food using local ingredients. No shortcuts, no frozen items — just honest meals prepared every day.",
-      "image": "/images/sections/food-1.jpg",
+      "title": "Comfortable Dining",
+      "text": "Whether you're dining with family or friends, PASTI provides a friendly atmosphere where good food and great conversations come together. A perfect place to enjoy authentic Sri Lankan flavors.",
+      "image": "/images/restaurant/dining.jpg",
       "reverse": false
     },
     {
@@ -16,9 +16,9 @@
     },
     {
       "id": 3,
-      "title": "Simple Menu, Big Flavours",
-      "text": "Our menu focuses on popular Sri Lankan and café-style food. Every dish is prepared fresh and served hot.",
-      "image": "/images/sections/food-3.jpg",
+      "title": "Cozy Interior",
+      "text": "Designed for comfort and relaxation, our interior offers a warm and welcoming space for families, friends, and casual dining. Every detail is carefully arranged to create a pleasant dining experience.",
+      "image": "/images/restaurant/interior.jpg",
       "reverse": false
     },
     {

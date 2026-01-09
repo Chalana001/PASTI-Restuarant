@@ -4,6 +4,8 @@ import FoodCard from "../components/FoodCard";
 import InfoSection from "../components/InfoSection";
 import GoogleReviews from "../components/GoogleReviews";
 import "../App.css";
+import { useNavigate } from "react-router-dom";
+
 
 const fetchMenu = async () => {
   const res = await fetch("/menu.json");
@@ -13,6 +15,7 @@ const fetchMenu = async () => {
 const HomePage = ({ onViewMenu }) => {
   const [comboFoods, setComboFoods] = useState([]);
   const [sections, setSections] = useState([]);
+  const navigate = useNavigate();
 
   // 🔥 load combo-packages from menu.json
   useEffect(() => {
@@ -43,12 +46,12 @@ const HomePage = ({ onViewMenu }) => {
       {comboFoods.length > 0 && (
         <section className="special-deals">
           <h2 className="section-title">🔥 Combo Packages</h2>
-
           <div className="special-deals-row">
             {comboFoods.map((food) => (
               <FoodCard
                 key={food.id}
                 food={food}
+                onClick={() => navigate(`/menu/${food.id}`)}
                 variant="list"
               />
             ))}
@@ -57,6 +60,7 @@ const HomePage = ({ onViewMenu }) => {
       )}
 
       {/* INFO SECTIONS */}
+      <section className="info-sections-h">
       {sections.map((section) => (
         <InfoSection
           key={section.id}
@@ -66,7 +70,7 @@ const HomePage = ({ onViewMenu }) => {
           reverse={section.reverse}
         />
       ))}
-
+      </section>
       <GoogleReviews />
     </div>
   );

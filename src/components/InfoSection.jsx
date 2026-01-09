@@ -24,17 +24,17 @@ export default function InfoSection({ title, text, image, reverse }) {
   return (
     <section
       ref={sectionRef}
-      className={`info-section ${reverse ? "reverse" : ""} ${
-        visible ? "visible" : ""
-      }`}
+      className={`info-section ${reverse ? "reverse" : ""} ${visible ? "visible" : ""
+        }`}
     >
       <div className="info-inner">
+        <div className="info-text">
+          <h2>{title}</h2>
+        </div>
         <div className="info-image">
           <img src={image} alt={title} />
         </div>
-
         <div className="info-text">
-          <h2>{title}</h2>
           <p>{text}</p>
         </div>
       </div>
