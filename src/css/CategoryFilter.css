@@ -1,0 +1,21 @@
+.category-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-bottom: 2rem;
+}
+.category-filter button {
+  background: var(--color-divider);
+  color: var(--color-text-main);
+  border: none;
+  border-radius: 20px;
+  padding: 0.5em 1.5em;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.5s;
+}
+.category-filter button.active, .category-filter button:hover {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}

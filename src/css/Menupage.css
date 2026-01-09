@@ -1,0 +1,52 @@
+.menu-page {
+  max-width: 1100px;
+  margin: 0 auto 2rem auto;
+  padding: 1.5rem;
+  padding-top: 40px;
+
+}
+.menu-title {
+  font-size: 2.2rem;
+  color: var(--color-primary);
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.menu-list {
+  margin-top: 1.5rem;
+}
+.menu-category {
+  margin-bottom: 2.5rem;
+}
+.category-title {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  margin-bottom: 1.2rem;
+  margin-left: 0.2rem;
+  margin-top: 2.5rem;
+  font-weight: bold;
+}
+.foods-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .foods-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .foods-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .foods-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import SearchBar from "../components/SearchBar";
 import CategoryFilter from "../components/CategoryFilter";
 import FoodCard from "../components/FoodCard";
-import "../App.css";
+import "../css/MenuPage.css";
 import { useNavigate } from "react-router-dom";
 
 

@@ -4,29 +4,22 @@
       "id": 1,
       "title": "Comfortable Dining",
       "text": "Whether you're dining with family or friends, PASTI provides a friendly atmosphere where good food and great conversations come together. A perfect place to enjoy authentic Sri Lankan flavors.",
-      "image": "/images/restaurant/dining.jpg",
+      "image": "/images/info-sections/dining.webp",
       "reverse": false
     },
     {
       "id": 2,
       "title": "Loved by Locals & Travelers",
       "text": "From Mahiyanganaya locals to foreign visitors, PASTI is known for tasty food, friendly service, and a calm place to enjoy your meal.",
-      "image": "/images/sections/food-2.jpg",
+      "image": "/images/info-sections/travelers.webp",
       "reverse": true
     },
     {
       "id": 3,
       "title": "Cozy Interior",
       "text": "Designed for comfort and relaxation, our interior offers a warm and welcoming space for families, friends, and casual dining. Every detail is carefully arranged to create a pleasant dining experience.",
-      "image": "/images/restaurant/interior.jpg",
+      "image": "/images/info-sections/interior.webp",
       "reverse": false
-    },
-    {
-      "id": 4,
-      "title": "A Calm Place to Eat & Relax",
-      "text": "Whether you live nearby or are visiting Mahiyanganaya, PASTI is a comfortable place to eat, relax, and enjoy good food.",
-      "image": "/images/sections/food-4.jpg",
-      "reverse": true
     }
   ]
 }

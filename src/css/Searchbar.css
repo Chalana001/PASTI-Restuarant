@@ -1,0 +1,17 @@
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+.search-bar input {
+  width: 100%;
+  max-width: 350px;
+  padding: 0.7em 1.2em;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  background: var(--color-divider);
+  color: var(--color-text-main);
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}

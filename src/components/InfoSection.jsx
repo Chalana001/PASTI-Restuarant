@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "../App.css";
+import "../css/InfoSection.css";
 
 export default function InfoSection({ title, text, image, reverse }) {
   const sectionRef = useRef(null);
@@ -30,12 +30,10 @@ export default function InfoSection({ title, text, image, reverse }) {
       <div className="info-inner">
         <div className="info-text">
           <h2>{title}</h2>
+          <p>{text}</p>
         </div>
         <div className="info-image">
           <img src={image} alt={title} />
-        </div>
-        <div className="info-text">
-          <p>{text}</p>
         </div>
       </div>
     </section>

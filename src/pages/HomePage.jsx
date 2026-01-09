@@ -3,7 +3,7 @@ import HeroSection from "../components/HeroSection";
 import FoodCard from "../components/FoodCard";
 import InfoSection from "../components/InfoSection";
 import GoogleReviews from "../components/GoogleReviews";
-import "../App.css";
+import "../css/Homepage.css";
 import { useNavigate } from "react-router-dom";
 
 
@@ -11,6 +11,17 @@ const fetchMenu = async () => {
   const res = await fetch("/menu.json");
   return res.json();
 };
+
+const scrollToSection = (id) => {
+  const el = document.getElementById(id);
+  if (!el) return;
+
+  el.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+};
+
 
 const HomePage = ({ onViewMenu }) => {
   const [comboFoods, setComboFoods] = useState([]);
@@ -59,17 +70,83 @@ const HomePage = ({ onViewMenu }) => {
         </section>
       )}
 
+      {/* <div className="mini-highlights">
+  <div className="mini-item">🍽️ Comfortable Dining</div>
+  <div className="mini-item">🏡 Cozy Interior</div>
+  <div className="mini-item">❤️ Loved by Locals</div>
+</div> */}
+      <div className="mini-highlights">
+        <button className="mini-item" onClick={() => scrollToSection("1")}>
+          🍽️ Comfortable Dining
+        </button>
+
+        <button className="mini-item" onClick={() => scrollToSection("3")}>
+          🏡 Cozy Interior
+        </button>
+
+        <button className="mini-item" onClick={() => scrollToSection("2")}>
+          ❤️ Loved by Locals
+        </button>
+
+        <button className="mini-item" onClick={() => scrollToSection("services")}>
+          🚚 Delivery & Services
+        </button>
+      </div>
+
+
+
+      <section id="services" className="services">
+        <h2 className="section-title">Services</h2>
+
+        <div className="services-grid">
+          <div className="service-card">
+            <span className="service-icon">🚚</span>
+            <h3>Delivery Available</h3>
+            <p>Fast delivery around Mahiyanganaya</p>
+          </div>
+
+          <div className="service-card">
+            <span className="service-icon">🎉</span>
+            <h3>Small Parties</h3>
+            <p>For birthday & small parties</p>
+          </div>
+
+          <div className="service-card">
+            <span className="service-icon">💵</span>
+            <h3>Cash on Delivery</h3>
+            <p>Pay when you receive your order</p>
+          </div>
+
+          <div className="service-card">
+            <span className="service-icon">✅</span>
+            <h3>Delivery Charges</h3>
+            <p>Free within 2km • +LKR 50 per extra 1km</p>
+          </div>
+
+        </div>
+      </section>
+      <p className="delivery-note">
+        📍 Free within 2km of PASTI • Extra 1km = LKR 50 • COD Available
+      </p>
+      <p className="party-note">
+        🎉 Small party space available • you can book for small birthday parties
+      </p>
+
+
+
       {/* INFO SECTIONS */}
-      <section className="info-sections-h">
-      {sections.map((section) => (
-        <InfoSection
-          key={section.id}
-          title={section.title}
-          text={section.text}
-          image={section.image}
-          reverse={section.reverse}
-        />
-      ))}
+      <section id="infosection" className="info-sections-h">
+        {sections.map((section) => (
+          <div id={section.id} >
+            <InfoSection
+              key={section.id}
+              title={section.title}
+              text={section.text}
+              image={section.image}
+              reverse={section.reverse}
+            />
+          </div>
+        ))}
       </section>
       <GoogleReviews />
     </div>
