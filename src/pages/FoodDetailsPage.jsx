@@ -73,34 +73,35 @@ Price: LKR ${selectedPrice.value}`;
         <div className="food-details-info">
           <h2 className="food-details-title">{food.name}</h2>
 
-          {/* ✅ PRICE SELECTION */}
-          <div className="food-details-prices">
-            {food.prices.map((p) => (
-              <label key={p.label} className="price-option">
-                <input
-                  type="radio"
-                  name="price"
-                  checked={selectedPrice?.label === p.label}
-                  onChange={() => setSelectedPrice(p)}
-                />
-                <span>
-                  {p.label} – LKR {p.value}
-                </span>
-              </label>
-            ))}
-          </div>
-
           <p className="food-details-short">{food.shortDescription}</p>
           <p className="food-details-desc">{food.description}</p>
+          <div className="bottom-actions">
+            {/* ✅ PRICE SELECTION */}
+            <div className="food-details-prices">
+              {food.prices.map((p) => (
+                <label key={p.label} className="price-option">
+                  <input
+                    type="radio"
+                    name="price"
+                    checked={selectedPrice?.label === p.label}
+                    onChange={() => setSelectedPrice(p)}
+                  />
+                  <span>
+                    {p.label} – LKR {p.value}
+                  </span>
+                </label>
+              ))}
+            </div>
 
-          {/* ✅ BUY BUTTON */}
-          <button
-            className="buy-btn"
-            disabled={!selectedPrice}
-            onClick={handleBuy}
-          >
-            Buy on WhatsApp
-          </button>
+            {/* ✅ BUY BUTTON */}
+            <button
+              className="buy-btn"
+              disabled={!selectedPrice}
+              onClick={handleBuy}
+            >
+              Buy on WhatsApp
+            </button>
+          </div>
         </div>
       </div>
 
