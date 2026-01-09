@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../css/StickyContactButtons.css";
+import "../css/Stickycontactbuttons.css";
 
 export default function StickyContactButtons() {
   const [visible, setVisible] = useState(false);

@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/FoodCard.css";
+import "../css/Foodcard.css";
 
 const FoodCard = ({ food, variant = "list", onClick }) => {
   const mainPrice = food.prices?.[0]; // Medium or Regular

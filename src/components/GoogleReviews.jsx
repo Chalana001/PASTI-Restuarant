@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/GoogleReviews.css";
+import "../css/Googlereviews.css";
 
 const GoogleReviews = () => {
   return (

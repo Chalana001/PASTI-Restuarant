@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/CategoryFilter.css";
+import "../css/Categoryfilter.css";
 
 const CategoryFilter = ({ categories, selected, onSelect }) => (
   <div className="category-filter">

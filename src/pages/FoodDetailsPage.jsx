@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import FoodCard from "../components/FoodCard";
-import "../css/FoodDetailsPage.css";
+import "../css/FooddetailsPage.css";
 
 const fetchMenu = async () => {
   const res = await fetch("/menu.json");

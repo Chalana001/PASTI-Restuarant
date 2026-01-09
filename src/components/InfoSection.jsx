@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "../css/InfoSection.css";
+import "../css/Infosection.css";
 
 export default function InfoSection({ title, text, image, reverse }) {
   const sectionRef = useRef(null);
