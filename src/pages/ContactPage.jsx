@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/ContactPage.css";
+import "../css/Contactpage.css";
 
 export default function ContactPage() {
   return (
