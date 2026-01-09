@@ -3,7 +3,7 @@ import HeroSection from "../components/HeroSection";
 import FoodCard from "../components/FoodCard";
 import InfoSection from "../components/InfoSection";
 import GoogleReviews from "../components/GoogleReviews";
-import "../css/Homepage.css";
+import "../css/HomePage.css";
 import { useNavigate } from "react-router-dom";
 
 
