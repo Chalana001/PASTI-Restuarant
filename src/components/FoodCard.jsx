@@ -24,7 +24,7 @@ const FoodCard = ({ food, variant = "list", onClick }) => {
         {/* ✅ LIST / SEARCH VIEW */}
         {variant === "list" && mainPrice && (
           <div className="food-card-price">
-            LKR {mainPrice.value}
+            LKR {mainPrice.value}/=
             {food.prices.length > 1 && (
               <span className="from-text">
                 {" "} ( {mainPrice.label} )

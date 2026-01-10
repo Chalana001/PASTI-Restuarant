@@ -51,7 +51,7 @@ const FoodDetailsPage = () => {
 
     const message = `Order Item: ${food.name}
 Size: ${selectedPrice.label}
-Price: LKR ${selectedPrice.value}`;
+Price: LKR ${selectedPrice.value}/=`;
 
     const phone = "0771168145";
     const url = `https://wa.me/94${phone.substring(
@@ -87,7 +87,7 @@ Price: LKR ${selectedPrice.value}`;
                     onChange={() => setSelectedPrice(p)}
                   />
                   <span>
-                    {p.label} – LKR {p.value}
+                    {p.label} – LKR {p.value}.00
                   </span>
                 </label>
               ))}
