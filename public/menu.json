@@ -142,9 +142,9 @@
           "description": "Special pork concasse mixed with devilled naimiris chili sauce and mozzarella cheese over tomato sauce."
         },
         {
-          "id": "hot-butter-vegetable-naimiris-pizza",
-          "name": "Hot Butter Vegetable Naimiris Pizza",
-          "image": "/images/menu/pasti-special-pizza/hot-butter-vegetable-naimiris-pizza.webp",
+          "id": "hot-butter-vegetable-pizza",
+          "name": "Hot Butter Vegetable Pizza",
+          "image": "/images/menu/pasti-special-pizza/hot-butter-vegetable-pizza.webp",
           "prices": [
             {
               "label": "Medium",

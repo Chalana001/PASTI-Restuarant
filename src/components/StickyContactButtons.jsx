@@ -28,12 +28,12 @@ export default function StickyContactButtons() {
 
   return (
     <div className="sticky-contact">
-      <a href="tel:+94XXXXXXXXX" className="sticky-btn call">
+      <a href="tel:+94552257850" className="sticky-btn call">
         Call
       </a>
 
       <a
-        href="https://wa.me/94XXXXXXXXX"
+        href="https://wa.me/94771168145"
         target="_blank"
         rel="noopener noreferrer"
         className="sticky-btn whatsapp"

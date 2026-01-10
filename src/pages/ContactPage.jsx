@@ -13,13 +13,13 @@ export default function ContactPage() {
       <div className="contact-cards">
         <div className="contact-card">
           <h3>📞 Phone</h3>
-          <a href="tel:+94704589764">+94 70 458 9764</a>
+          <a href="tel:+94552257850">055 225 78 50</a>
         </div>
 
         <div className="contact-card">
           <h3>💬 WhatsApp</h3>
           <a
-            href="https://wa.me/94704589764"
+            href="https://wa.me/94771168145"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -29,8 +29,8 @@ export default function ContactPage() {
 
         <div className="contact-card">
           <h3>⏰ Opening Hours</h3>
-          <p>10:00 AM – 10:00 PM</p>
-          <span>Monday – Sunday</span>
+          <p>11:00 AM – 11:00 PM</p>
+          <span>Tuesday – Sunday</span>
         </div>
 
         <div className="contact-card">
@@ -51,11 +51,11 @@ export default function ContactPage() {
 
       {/* CTA */}
       <div className="contact-actions">
-        <a href="tel:+94704589764" className="contact-btn dark">
+        <a href="tel:+94552257850" className="contact-btn dark">
           Call Now
         </a>
         <a
-          href="https://wa.me/94704589764"
+          href="https://wa.me/94771168145"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-btn whatsapp"

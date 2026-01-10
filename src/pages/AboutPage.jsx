@@ -27,7 +27,7 @@ export default function AboutPage() {
         </p>
       </div>
 
-      {/* Real Restaurant Photos */}
+      {/* Real Restaurant Photos
       <section className="restaurant-photos">
         <h2 className="section-title">Inside PASTI</h2>
         <p className="section-subtitle">
@@ -53,7 +53,7 @@ export default function AboutPage() {
             <p>Our kitchen operates with strict cleanliness and food safety standards. Every meal is prepared with care, using fresh ingredients and proper hygiene practices to ensure quality and taste in every dish.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="team-section">
 
@@ -79,7 +79,7 @@ export default function AboutPage() {
   </div>
 
   {/* Chef */}
-  <div className="team-row reverse">
+  {/* <div className="team-row reverse">
     <div className="team-image">
       <img src="/images/owner/chef.jpg" alt="Head Chef" />
     </div>
@@ -97,7 +97,7 @@ export default function AboutPage() {
       </p>
       <span className="line"></span>
     </div>
-  </div>
+  </div> */}
 
 </section>
 

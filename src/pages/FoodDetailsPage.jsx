@@ -53,7 +53,7 @@ const FoodDetailsPage = () => {
 Size: ${selectedPrice.label}
 Price: LKR ${selectedPrice.value}`;
 
-    const phone = "0704589764";
+    const phone = "0771168145";
     const url = `https://wa.me/94${phone.substring(
       1
     )}?text=${encodeURIComponent(message)}`;
