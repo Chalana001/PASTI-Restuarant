@@ -23,66 +23,6 @@
           ],
           "shortDescription": "Pizza + Fried rice + 1.5L drink",
           "description": "Best value combo for 4–5 people."
-        },
-        {
-          "id": "family-combo-2",
-          "name": "Family Combo Pack",
-          "image": "/images/menu/combo-packages/family-combo3.webp",
-          "prices": [
-            { "label": "Combo", "value": 3990 }
-          ],
-          "shortDescription": "Pizza + Fried rice + 1.5L drink",
-          "description": "Best value combo for 4–5 people."
-        },
-        {
-          "id": "family-combo-3",
-          "name": "Family Combo Pack",
-          "image": "/images/menu/combo-packages/family-combo1.webp",
-          "prices": [
-            { "label": "Combo", "value": 3990 }
-          ],
-          "shortDescription": "Pizza + Fried rice + 1.5L drink",
-          "description": "Best value combo for 4–5 people."
-        },
-        {
-          "id": "family-combo-4",
-          "name": "Family Combo Pack",
-          "image": "/images/menu/combo-packages/family-combo2.webp",
-          "prices": [
-            { "label": "Combo", "value": 3990 }
-          ],
-          "shortDescription": "Pizza + Fried rice + 1.5L drink",
-          "description": "Best value combo for 4–5 people."
-        },
-        {
-          "id": "family-combo-5",
-          "name": "Family Combo Pack",
-          "image": "/images/menu/combo-packages/family-combo3.webp",
-          "prices": [
-            { "label": "Combo", "value": 3990 }
-          ],
-          "shortDescription": "Pizza + Fried rice + 1.5L drink",
-          "description": "Best value combo for 4–5 people."
-        },
-        {
-          "id": "family-combo-6",
-          "name": "Family Combo Pack",
-          "image": "/images/menu/combo-packages/family-combo1.webp",
-          "prices": [
-            { "label": "Combo", "value": 3990 }
-          ],
-          "shortDescription": "Pizza + Fried rice + 1.5L drink",
-          "description": "Best value combo for 4–5 people."
-        },
-        {
-          "id": "family-combo-7",
-          "name": "Family Combo Pack",
-          "image": "/images/menu/combo-packages/family-combo2.webp",
-          "prices": [
-            { "label": "Combo", "value": 3990 }
-          ],
-          "shortDescription": "Pizza + Fried rice + 1.5L drink",
-          "description": "Best value combo for 4–5 people."
         }
       ]
     },
