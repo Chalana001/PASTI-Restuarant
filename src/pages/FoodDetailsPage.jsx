@@ -32,7 +32,7 @@ const FoodDetailsPage = () => {
       setFood(foundFood);
 
       if (foundFood?.prices?.length === 1) {
-        setSelectedPrice(foundFood.prices[0]); // ✅ auto select
+        setSelectedPrice(foundFood.prices[0]);
       }
 
       if (foundCategory) {

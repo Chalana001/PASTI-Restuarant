@@ -56,7 +56,7 @@ const HomePage = ({ onViewMenu }) => {
       {/* ✅ COMBO PACKAGES (only if available) */}
       {comboFoods.length > 0 && (
         <section className="special-deals">
-          <h2 className="section-title">🔥 Combo Packages</h2>
+          <h2 className="section-title">Combo Packages 🔥</h2>
           <div className="special-deals-row">
             {comboFoods.map((food) => (
               <FoodCard
@@ -80,7 +80,7 @@ const HomePage = ({ onViewMenu }) => {
         </button>
 
         <button className="mini-item" onClick={() => scrollToSection("2")}>
-          ❤️ Loved by Locals
+          ❤️ Loved by Foreigners & Locals
         </button>
 
         <button className="mini-item" onClick={() => scrollToSection("services")}>
