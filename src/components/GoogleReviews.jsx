@@ -30,7 +30,7 @@ const GoogleReviews = () => {
         </a>
 
         <a
-          href="https://search.google.com/local/writereview?placeid=YOUR_PLACE_ID"
+          href="https://search.google.com/local/writereview?placeid=ChIJi3lTbkCX5DsR6oN7z6ABm30"
           target="_blank"
           rel="noopener noreferrer"
           className="reviews-btn secondary"

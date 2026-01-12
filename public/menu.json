@@ -5,24 +5,14 @@
       "name": "Combo Packages",
       "foods": [
         {
-          "id": "family-combo-1",
-          "name": "Family Combo Pack",
-          "image": "/images/menu/combo-packages/family-combo1.webp",
+          "id": "5-Pack-combo",
+          "name": "PASTI “Badapirenama Combo Pack”",
+          "image": "/images/menu/combo-packages/combo1.webp",
           "prices": [
             { "label": "Combo", "value": 3990 }
           ],
-          "shortDescription": "Pizza + Fried rice + 1.5L drink",
-          "description": "Best value combo for 4–5 people."
-        },
-        {
-          "id": "family-combo-1",
-          "name": "Family Combo Pack",
-          "image": "/images/menu/combo-packages/family-combo2.webp",
-          "prices": [
-            { "label": "Combo", "value": 3990 }
-          ],
-          "shortDescription": "Pizza + Fried rice + 1.5L drink",
-          "description": "Best value combo for 4–5 people."
+          "shortDescription": "Seafood mix rice + Beef kottu + Biriyani + Naan Roti + Watalappan",
+          "description": "ඔයාට Family set එකක්ද? Office set එකක්ද? නැත්නම් යාලුවන් එක්ක share කරන්නද? එහෙනම් මේ Combo Pack එක Perfect choice එක ✅"
         }
       ]
     },

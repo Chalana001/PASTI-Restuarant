@@ -33,7 +33,7 @@ export default function InfoSection({ title, text, image, reverse }) {
           <p>{text}</p>
         </div>
         <div className="info-image">
-          <img src={image} alt={title} />
+          <img src={image} alt={title} loading="lazy"/>
         </div>
       </div>
     </section>

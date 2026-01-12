@@ -60,7 +60,7 @@ export default function AboutPage() {
   {/* Founder */}
   <div className="team-row">
     <div className="team-image">
-      <img src="/images/owner/founder.jpg" alt="Founder" />
+      <img src="/images/owner/founder.jpg" alt="Founder" loading="lazy" />
     </div>
 
     <div className="team-content">

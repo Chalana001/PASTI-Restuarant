@@ -14,7 +14,7 @@ const FoodCard = ({ food, variant = "list", onClick }) => {
       <img
         src={food.image}
         alt={food.name}
-        className="food-card-img"
+        className="food-card-img" loading="lazy"
       />
 
       <div className="food-card-body">
