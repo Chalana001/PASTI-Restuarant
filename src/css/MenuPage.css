@@ -12,6 +12,32 @@
   text-align: center;
 }
 
+.table-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  padding: 10px 14px;
+  margin: 12px 0 18px;
+
+  border-radius: 12px;
+  background: rgba(255, 180, 0, 0.12);
+  border: 1px solid rgba(255, 180, 0, 0.35);
+  color: #ffb300;
+  font-weight: 600;
+}
+
+.clear-table {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
 .menu-list {
   margin-top: 1.5rem;
 }

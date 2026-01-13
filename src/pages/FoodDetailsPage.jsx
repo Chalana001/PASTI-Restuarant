@@ -46,20 +46,42 @@ const FoodDetailsPage = () => {
   if (!food) return <div className="food-details-loading">Loading...</div>;
 
   // ✅ WhatsApp handler
-  const handleBuy = () => {
-    if (!selectedPrice) return;
+//   const handleBuy = () => {
+//     if (!selectedPrice) return;
 
-    const message = `Order Item: ${food.name}
+//     const message = `Order Item: ${food.name}
+// Size: ${selectedPrice.label}
+// Price: LKR ${selectedPrice.value}/=`;
+
+//     const phone = "0771168145";
+//     const url = `https://wa.me/94${phone.substring(
+//       1
+//     )}?text=${encodeURIComponent(message)}`;
+
+//     window.open(url, "_blank");
+//   };
+
+const handleBuy = () => {
+  if (!selectedPrice) return;
+
+  // ✅ read table session safely
+  const session = JSON.parse(localStorage.getItem("tableSession") || "null");
+  const tableId = session?.id || "Online"; // ✅ if null => Online
+
+  const message = `Hello PASTI Restaurant 👋
+Table: ${tableId}
+
+Order Item: ${food.name}
 Size: ${selectedPrice.label}
 Price: LKR ${selectedPrice.value}/=`;
 
-    const phone = "0771168145";
-    const url = `https://wa.me/94${phone.substring(
-      1
-    )}?text=${encodeURIComponent(message)}`;
+  const phone = "0771168145";
+  const url = `https://wa.me/94${phone.substring(1)}?text=${encodeURIComponent(
+    message
+  )}`;
 
-    window.open(url, "_blank");
-  };
+  window.open(url, "_blank");
+};
 
   return (
     <main className="food-details-page">
