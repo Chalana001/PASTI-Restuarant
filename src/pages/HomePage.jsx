@@ -5,6 +5,7 @@ import InfoSection from "../components/InfoSection";
 import GoogleReviews from "../components/GoogleReviews";
 import "../css/HomePage.css";
 import { useNavigate } from "react-router-dom";
+import OfferPopup from "../components/OfferPopup";
 
 
 const fetchMenu = async () => {
@@ -51,6 +52,7 @@ const HomePage = ({ onViewMenu }) => {
 
   return (
     <div className="home-page">
+       <OfferPopup imageUrl="/images/offer.webp" />
       <HeroSection onViewMenu={onViewMenu} />
 
       {/* ✅ COMBO PACKAGES (only if available) */}
