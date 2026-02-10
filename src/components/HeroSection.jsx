@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import "../css/HeroSection.css";
 
 const heroImages = [
-  "/images/hero/hero1.jpg",
-  "/images/hero/hero2.jpg",
-  "/images/hero/hero3.jpg",
-  "/images/hero/hero4.jpg",
-  "/images/hero/hero5.jpg"
+  "/images/hero/hero1.webp",
+  "/images/hero/hero2.webp",
+  "/images/hero/hero3.webp",
+  "/images/hero/hero4.webp",
+  "/images/hero/hero5.webp"
 ];
 
 const tagline = "Comfortable Dining for Locals & Travelers";
@@ -20,6 +20,12 @@ const HeroSection = ({ onViewMenu }) => {
     }, 3500);
     return () => clearInterval(interval);
   }, []);
+
+  useEffect(() => {
+    const nextIndex = (current + 1) % heroImages.length;
+    const img = new Image();
+    img.src = heroImages[nextIndex];
+  }, [current]);
 
   return (
     <section className="hero-section">
