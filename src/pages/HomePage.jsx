@@ -52,7 +52,7 @@ const HomePage = ({ onViewMenu }) => {
 
   return (
     <div className="home-page">
-       <OfferPopup imageUrl="/images/offer.webp" />
+       //<OfferPopup imageUrl="/images/offer.webp" />
       <HeroSection onViewMenu={onViewMenu} />
 
       {/* ✅ COMBO PACKAGES (only if available) */}
